@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/sorting/InsertionSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sorting/SelectionSort.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Kotlin.InsertionSortKt">
+  <component name="RunManager" selected="Kotlin.SelectionSortKt">
     <configuration name="BubbleSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -64,8 +64,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.SelectionSortKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SelectionSortKt" />
         <item itemvalue="Kotlin.InsertionSortKt" />
         <item itemvalue="Kotlin.BubbleSortKt" />
       </list>
@@ -85,22 +99,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="597" height="209" key="GridCell.Tab.0.bottom" timestamp="1625492634758">
+    <state width="597" height="209" key="GridCell.Tab.0.bottom" timestamp="1625493783893">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="597" height="209" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1625492634758" />
-    <state width="597" height="209" key="GridCell.Tab.0.center" timestamp="1625492634757">
+    <state width="597" height="209" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1625493783893" />
+    <state width="597" height="209" key="GridCell.Tab.0.center" timestamp="1625493783893">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="597" height="209" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1625492634757" />
-    <state width="597" height="209" key="GridCell.Tab.0.left" timestamp="1625492634757">
+    <state width="597" height="209" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1625493783893" />
+    <state width="597" height="209" key="GridCell.Tab.0.left" timestamp="1625493783893">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="597" height="209" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1625492634757" />
-    <state width="597" height="209" key="GridCell.Tab.0.right" timestamp="1625492634758">
+    <state width="597" height="209" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1625493783893" />
+    <state width="597" height="209" key="GridCell.Tab.0.right" timestamp="1625493783893">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="597" height="209" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1625492634758" />
+    <state width="597" height="209" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1625493783893" />
     <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1625490814916">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
