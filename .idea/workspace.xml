@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/searching/BinarySearch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/SinglyLinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/queue/Queue.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -37,7 +39,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Kotlin.BinarySearchKt">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.SinglyLinkedListKt">
     <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -46,19 +53,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.BubbleSortKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SinglyLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.linkedlist.SinglyLinkedListKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SinglyLinkedListKt" />
         <item itemvalue="Kotlin.BinarySearchKt" />
         <item itemvalue="Kotlin.QuickSortKt" />
         <item itemvalue="Kotlin.SelectionSortKt" />
         <item itemvalue="Kotlin.InsertionSortKt" />
-        <item itemvalue="Kotlin.BubbleSortKt" />
       </list>
     </recent_temporary>
   </component>
@@ -127,25 +134,39 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="209" key="GridCell.Tab.0.bottom" timestamp="1625584293390">
+    <state width="1238" height="209" key="GridCell.Tab.0.bottom" timestamp="1626680798480">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="209" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1625584293390" />
-    <state width="1238" height="209" key="GridCell.Tab.0.center" timestamp="1625584293390">
+    <state width="1238" height="209" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1626680798480" />
+    <state width="1238" height="209" key="GridCell.Tab.0.center" timestamp="1626680798480">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="209" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1625584293390" />
-    <state width="1238" height="209" key="GridCell.Tab.0.left" timestamp="1625584293390">
+    <state width="1238" height="209" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1626680798480" />
+    <state width="1238" height="209" key="GridCell.Tab.0.left" timestamp="1626680798480">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="209" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1625584293390" />
-    <state width="1238" height="209" key="GridCell.Tab.0.right" timestamp="1625584293390">
+    <state width="1238" height="209" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1626680798480" />
+    <state width="1238" height="209" key="GridCell.Tab.0.right" timestamp="1626680798480">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="209" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1625584293390" />
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1625583874410">
+    <state width="1238" height="209" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1626680798480" />
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1626675741124">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1625583874410" />
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1626675741124" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/data_structure/linkedlist/SinglyLinkedList.kt</url>
+          <line>96</line>
+          <properties method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
