@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stack/StackUsingLinkedList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/queue/QueueUsingStack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/queue/QueueUsingStack.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.QueuesUsingLinkedListKt">
+  <component name="RunManager" selected="Kotlin.StackUsingLinkedListKt">
     <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -52,6 +52,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueUsingStackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.queue.QueueUsingStackKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,32 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSortKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.SelectionSortKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SinglyLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -109,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackUsingLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.stack.StackUsingLinkedListKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StackUsingLinkedListKt" />
+        <item itemvalue="Kotlin.QueueUsingStackKt" />
         <item itemvalue="Kotlin.QueuesUsingLinkedListKt" />
         <item itemvalue="Kotlin.SinglyLinkedListKt" />
         <item itemvalue="Kotlin.BinarySearchKt" />
-        <item itemvalue="Kotlin.QuickSortKt" />
-        <item itemvalue="Kotlin.SelectionSortKt" />
       </list>
     </recent_temporary>
   </component>
@@ -137,26 +137,26 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1626792550021" />
-    <state width="595" height="208" key="GridCell.Tab.0.bottom" timestamp="1626793718652">
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom" timestamp="1626850570302">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="595" height="208" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1626793718652" />
-    <state width="595" height="208" key="GridCell.Tab.0.center" timestamp="1626793718652">
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1626850570302" />
+    <state width="1238" height="204" key="GridCell.Tab.0.center" timestamp="1626850570302">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="595" height="208" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1626793718652" />
-    <state width="595" height="208" key="GridCell.Tab.0.left" timestamp="1626793718652">
+    <state width="1238" height="204" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1626850570301" />
+    <state width="1238" height="204" key="GridCell.Tab.0.left" timestamp="1626850570301">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="595" height="208" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1626793718652" />
-    <state width="595" height="208" key="GridCell.Tab.0.right" timestamp="1626793718652">
+    <state width="1238" height="204" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1626850570301" />
+    <state width="1238" height="204" key="GridCell.Tab.0.right" timestamp="1626850570302">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="595" height="208" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1626793718652" />
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1626675741124">
+    <state width="1238" height="204" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1626850570302" />
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1626846258608">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1626675741124" />
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1626846258608" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
