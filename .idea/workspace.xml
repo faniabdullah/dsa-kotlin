@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/Fibonacci.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingSubsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +47,8 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FibonacciKt">
-    <configuration name="FibonacciKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.dynamicprogramming.LongestIncreasingSubsequenceKt">
+    <configuration name="FibonacciKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -60,7 +61,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueUsingStackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="QueueUsingStackKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -73,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueuesUsingLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="QueuesUsingLinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -86,20 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.linkedlist.SinglyLinkedListKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackUsingLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="StackUsingLinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -112,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dynamicprogramming.LongestIncreasingSubsequenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.LongestIncreasingSubsequenceKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.dynamicprogramming.LongestIncreasingSubsequenceKt" />
         <item itemvalue="Kotlin.FibonacciKt" />
         <item itemvalue="Kotlin.StackUsingLinkedListKt" />
         <item itemvalue="Kotlin.QueueUsingStackKt" />
         <item itemvalue="Kotlin.QueuesUsingLinkedListKt" />
-        <item itemvalue="Kotlin.SinglyLinkedListKt" />
       </list>
     </recent_temporary>
   </component>
@@ -136,38 +137,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1628350915183">
+    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1628352808993">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.690@0.0.1280.690" timestamp="1628350915183" />
+    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.690@0.0.1280.690" timestamp="1628352808993" />
     <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1626792550021">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1626792550021" />
-    <state width="1238" height="204" key="GridCell.Tab.0.bottom" timestamp="1628351715174">
+    <state width="1238" height="220" key="GridCell.Tab.0.bottom" timestamp="1628520853706">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1628351715174" />
-    <state width="1238" height="204" key="GridCell.Tab.0.center" timestamp="1628351715173">
+    <state width="1238" height="220" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1628520853706" />
+    <state width="1238" height="220" key="GridCell.Tab.0.center" timestamp="1628520853706">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1628351715173" />
-    <state width="1238" height="204" key="GridCell.Tab.0.left" timestamp="1628351715173">
+    <state width="1238" height="220" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1628520853706" />
+    <state width="1238" height="220" key="GridCell.Tab.0.left" timestamp="1628520853705">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1628351715173" />
-    <state width="1238" height="204" key="GridCell.Tab.0.right" timestamp="1628351715173">
+    <state width="1238" height="220" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1628520853705" />
+    <state width="1238" height="220" key="GridCell.Tab.0.right" timestamp="1628520853706">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="204" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1628351715173" />
+    <state width="1238" height="220" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1628520853706" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1628350701568">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1628350701568" />
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1628350978810">
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1628519923953">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1628350978810" />
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1628519923953" />
     <state x="300" y="156" key="run.anything.popup" timestamp="1628351224768">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
