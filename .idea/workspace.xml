@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/ClimbingStairs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/searching/BinarySearchRecursive.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/SelectionSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sorting/SelectionSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingSubsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingSubsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/searching/BinarySearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/searching/BinarySearch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -48,7 +47,7 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.dynamicprogramming.ClimbingStairsKt">
+  <component name="RunManager" selected="Kotlin.algorithms.searching.BinarySearchRecursiveKt">
     <configuration name="FibonacciKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -62,14 +61,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackUsingLinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="algorithms.searching.BinarySearchRecursiveKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="data_structure.stack.StackUsingLinkedListKt" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchRecursiveKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.algorithms.searching.BinarySearchRecursiveKt" />
         <item itemvalue="Kotlin.dynamicprogramming.ClimbingStairsKt" />
         <item itemvalue="Kotlin.algorithms.sorting.SelectionSortKt" />
         <item itemvalue="Kotlin.dynamicprogramming.LongestIncreasingSubsequenceKt" />
         <item itemvalue="Kotlin.FibonacciKt" />
-        <item itemvalue="Kotlin.StackUsingLinkedListKt" />
       </list>
     </recent_temporary>
   </component>
@@ -146,22 +145,22 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1626792550021" />
-    <state width="1238" height="220" key="GridCell.Tab.0.bottom" timestamp="1628576710914">
+    <state width="597" height="100" key="GridCell.Tab.0.bottom" timestamp="1628599850929">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="220" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1628576710914" />
-    <state width="1238" height="220" key="GridCell.Tab.0.center" timestamp="1628576710914">
+    <state width="597" height="100" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1628599850929" />
+    <state width="597" height="100" key="GridCell.Tab.0.center" timestamp="1628599850929">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="220" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1628576710914" />
-    <state width="1238" height="220" key="GridCell.Tab.0.left" timestamp="1628576710914">
+    <state width="597" height="100" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1628599850929" />
+    <state width="597" height="100" key="GridCell.Tab.0.left" timestamp="1628599850929">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="220" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1628576710914" />
-    <state width="1238" height="220" key="GridCell.Tab.0.right" timestamp="1628576710914">
+    <state width="597" height="100" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1628599850929" />
+    <state width="597" height="100" key="GridCell.Tab.0.right" timestamp="1628599850929">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="220" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1628576710914" />
+    <state width="597" height="100" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1628599850929" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1628574539570">
       <screen x="0" y="0" width="1280" height="690" />
     </state>

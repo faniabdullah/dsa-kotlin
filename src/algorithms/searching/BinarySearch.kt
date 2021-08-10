@@ -19,6 +19,8 @@ class BinarySearch {
             }
             middle = (first + last) / 2
         }
+
+
         return "Element Not Found"
     }
 }
