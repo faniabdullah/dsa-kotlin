@@ -1,10 +1,10 @@
 package algorithms.sorting
 
 fun selectionSort(array: IntArray): IntArray {
-    for (i in array.indices){
+    for (i in array.indices) {
         var smallest = i
-        for(j in i until array.size){
-            if (array[j] < array[smallest]){
+        for (j in i until array.size) {
+            if (array[j] < array[smallest]) {
                 smallest = j
             }
         }

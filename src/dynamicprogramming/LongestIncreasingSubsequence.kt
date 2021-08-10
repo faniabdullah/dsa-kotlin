@@ -24,19 +24,29 @@ class LongestIncreasingSubsequence {
     }
 
     fun increasingTriplet(nums: IntArray): Boolean {
-        if (nums.size < 3) return false
-        var counter = 0
-        repeat(nums.count()) {
-            val j = it + 1
-            val k = j + 1
-            if (j != nums.lastIndex) {
-                if (nums[it] < nums[j] && nums[j] < nums[k]) return true
-                if (nums[it] < nums[j]) counter++
-                if (nums[j] < nums[k]) counter++
+        var first: Int? = null
+        var second: Int? = null
+        nums.forEach {
+            when {
+                first == null -> {
+                    first = nums[it]
+                }
+                it <= first as Int -> {
+                    first = nums[it]
+                }
+                second == null -> {
+                    second = nums[it]
+                }
+                it <= second as Int -> {
+                    second = it
+                }
+                else -> {
+                    return true
+                }
             }
-
         }
-        return counter == 3
+
+        return false
     }
 }
 
