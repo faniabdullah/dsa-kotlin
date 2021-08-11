@@ -39,7 +39,7 @@ class SinglyLinkedList(firsValue: Int) {
         val list = IntArray(length)
         var i = 0
         while (current != null) {
-            list[i] = current?.nodeValue as Int
+            list[i] = current.nodeValue
             current = current.next
             i++
         }
@@ -82,7 +82,7 @@ class SinglyLinkedList(firsValue: Int) {
             append(value)
         } else {
             var current: Node? = head
-            for (i in 1 until index-1 ) {
+            for (i in 1 until index - 1) {
                 current = current?.next
             }
             val newNode = Node(value)
@@ -90,6 +90,15 @@ class SinglyLinkedList(firsValue: Int) {
             current?.next = newNode
             length++
         }
+    }
+
+
+    fun swapLinkedList() {
+        val tempNext = head?.next
+        head?.next = head?.next?.next
+        val tempHead = head
+        head = tempNext
+        head?.next = tempHead
     }
 
 }
@@ -103,7 +112,6 @@ fun main() {
     println("list " + myLinkedList.printLinkedList().contentToString())
     myLinkedList.append(10 * 2)
     myLinkedList.append(11 * 2)
-    myLinkedList.prepend(1 * 2)
     myLinkedList.append(6 * 2)
 
     println("list " + myLinkedList.printLinkedList().contentToString())
@@ -115,6 +123,9 @@ fun main() {
     println("list " + myLinkedList.printLinkedList().contentToString())
     println(" get index : 4 =  ${myLinkedList.getLinkedList(4)}")
 
+    myLinkedList.swapLinkedList()
+
+    println("list after swaping" + myLinkedList.printLinkedList().contentToString())
 
 }
 
