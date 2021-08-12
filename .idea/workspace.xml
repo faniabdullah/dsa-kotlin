@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamicprogramming/Fibonacci.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/Fibonacci.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingSubsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingSubsequence.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +46,7 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.dynamicprogramming.FibonacciKt">
-    <configuration name="algorithms.searching.BinarySearchKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.dynamicprogramming.LongestIncreasingSubsequenceKt">
     <configuration name="algorithms.sorting.QuickSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -99,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dynamicprogramming.LongestIncreasingSubsequenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.LongestIncreasingSubsequenceKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="recursive.RecursiveQuizKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.dynamicprogramming.LongestIncreasingSubsequenceKt" />
         <item itemvalue="Kotlin.dynamicprogramming.FibonacciKt" />
         <item itemvalue="Kotlin.recursive.RecursiveQuizKt" />
         <item itemvalue="Kotlin.data_structure.linkedlist.SinglyLinkedListKt" />
         <item itemvalue="Kotlin.algorithms.sorting.QuickSortKt" />
-        <item itemvalue="Kotlin.algorithms.searching.BinarySearchKt" />
       </list>
     </recent_temporary>
   </component>
@@ -144,22 +144,22 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1626792550021" />
-    <state width="1238" height="143" key="GridCell.Tab.0.bottom" timestamp="1628753780455">
+    <state width="595" height="142" key="GridCell.Tab.0.bottom" timestamp="1628780554298">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="143" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1628753780455" />
-    <state width="1238" height="143" key="GridCell.Tab.0.center" timestamp="1628753780455">
+    <state width="595" height="142" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1628780554298" />
+    <state width="595" height="142" key="GridCell.Tab.0.center" timestamp="1628780554298">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="143" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1628753780455" />
-    <state width="1238" height="143" key="GridCell.Tab.0.left" timestamp="1628753780454">
+    <state width="595" height="142" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1628780554298" />
+    <state width="595" height="142" key="GridCell.Tab.0.left" timestamp="1628780554298">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="143" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1628753780454" />
-    <state width="1238" height="143" key="GridCell.Tab.0.right" timestamp="1628753780455">
+    <state width="595" height="142" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1628780554298" />
+    <state width="595" height="142" key="GridCell.Tab.0.right" timestamp="1628780554298">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="143" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1628753780455" />
+    <state width="595" height="142" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1628780554298" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1628574539570">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -183,6 +183,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/dynamicprogramming/LongestIncreasingSubsequence.kt</url>
+          <line>79</line>
+          <properties method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

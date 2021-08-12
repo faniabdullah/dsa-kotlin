@@ -6,13 +6,16 @@ class LongestIncreasingSubsequence {
         val sizeTable = intArray.size
         val lookupTable = IntArray(sizeTable) { 1 }
 
-        for (i in 1 until sizeTable) {
+        for (i in 1 until intArray.size) {
             for (j in 0 until i) {
-                if (intArray[i] > intArray[j] && lookupTable[i] < lookupTable[j] + 1) {
+                if (intArray[i] > intArray[j] &&
+                    lookupTable[i] < lookupTable[j] + 1
+                ) {
                     lookupTable[i] = lookupTable[i] + 1
                 }
             }
         }
+
 
         var counter = 0
         println(lookupTable.contentToString())
@@ -48,10 +51,40 @@ class LongestIncreasingSubsequence {
 
         return false
     }
+
+    fun longestIncreasingSubSequence(intArray: IntArray): Int {
+        val lookupTable = IntArray(intArray.size) { 1 }
+
+        for (i in 1 until intArray.size) {
+            for (j in 0 until i) {
+                if (intArray[i] > intArray[j] &&
+                    lookupTable[i] < lookupTable[j] + 1
+                ) {
+
+                    lookupTable[i] = lookupTable[i] + 1
+                }
+            }
+        }
+
+        println(lookupTable.contentToString())
+
+        var max = 0
+        lookupTable.forEach {
+            max = maxOf(max, it)
+        }
+
+        return max
+    }
 }
 
 fun main() {
     val lisOFArray = LongestIncreasingSubsequence()
         .lis(intArrayOf(0, 1, 0, 3, 2, 3))
+
+
+    val lisOFArray2 = LongestIncreasingSubsequence()
+        .longestIncreasingSubSequence(intArrayOf(0, 1, 0, 3, 2, 3))
+
     println(lisOFArray)
+    println(lisOFArray2)
 }
