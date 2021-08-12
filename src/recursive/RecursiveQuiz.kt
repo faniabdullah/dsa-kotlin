@@ -78,19 +78,26 @@ class RecursiveQuiz {
         return recursionCalculate(q, false)
     }
 
-    private fun recursionCalculate(s: Queue<*>, isMin: Boolean): Int {
+    private fun recursionCalculate(s: Queue<Char>, isMin: Boolean): Int {
         var num = 0
         while (s.isNotEmpty()) {
-            val c = s.poll() as Char
+            var c = s.poll() as Char
             if (c in '0'..'9') { // 3
                 num = "$num${c.toInt() - '0'.toInt()}".toInt()
+                if (isMin) {
+                    c = ')'
+                }
             } else if (c == '+') {
                 num += recursionCalculate(s, false)
             } else if (c == '-') {
                 num -= recursionCalculate(s, true)
             } else if (c == '(') {
                 num = recursionCalculate(s, true)
-            } else if (c == ')') {
+            }else if (c == ')'){
+                return num
+            }
+
+            if (c == ')') {
                 return num
             }
         }
@@ -100,7 +107,7 @@ class RecursiveQuiz {
 
 fun main() {
     // (1+(4+5+2)-3)+(6+8)
-    println(RecursiveQuiz().calculate("(1+(4+5+2)-3)+(6+8))"))
+    println(RecursiveQuiz().calculate("56 - 55"))
     // 2
     //
 
