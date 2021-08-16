@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/compotitiveProgramming/hard/LongestValidParenthesis.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compotitiveProgramming/easy/SearchChannel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compotitiveProgramming/medium/UniquePath.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,20 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.compotitiveProgramming.hard.LongestValidParenthesisKt">
+  <component name="RunManager" selected="Kotlin.compotitiveProgramming.medium.UniquePathKt">
+    <configuration name="compotitiveProgramming.easy.SearchChannelKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="compotitiveProgramming.easy.SearchChannelKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="compotitiveProgramming.hard.LongestValidParenthesisKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -86,27 +100,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dynamicprogramming.FibonacciKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="compotitiveProgramming.medium.UniquePathKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.FibonacciKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dynamicprogramming.LongestIncreasingSubsequenceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.LongestIncreasingSubsequenceKt" />
+      <option name="MAIN_CLASS_NAME" value="compotitiveProgramming.medium.UniquePathKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.compotitiveProgramming.medium.UniquePathKt" />
+        <item itemvalue="Kotlin.compotitiveProgramming.easy.SearchChannelKt" />
         <item itemvalue="Kotlin.compotitiveProgramming.hard.LongestValidParenthesisKt" />
         <item itemvalue="Kotlin.compotitiveProgramming.medium.MinimumPathSumKt" />
         <item itemvalue="Kotlin.compotitiveProgramming.medium.ReverseWordKt" />
-        <item itemvalue="Kotlin.dynamicprogramming.LongestIncreasingSubsequenceKt" />
-        <item itemvalue="Kotlin.dynamicprogramming.FibonacciKt" />
       </list>
     </recent_temporary>
   </component>
@@ -144,30 +145,30 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1626792550021" />
-    <state width="1238" height="139" key="GridCell.Tab.0.bottom" timestamp="1629003849669">
+    <state width="1238" height="234" key="GridCell.Tab.0.bottom" timestamp="1629096404474">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1629003849669" />
-    <state width="1238" height="139" key="GridCell.Tab.0.center" timestamp="1629003849669">
+    <state width="1238" height="234" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1629096404474" />
+    <state width="1238" height="234" key="GridCell.Tab.0.center" timestamp="1629096404474">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1629003849669" />
-    <state width="1238" height="139" key="GridCell.Tab.0.left" timestamp="1629003849669">
+    <state width="1238" height="234" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1629096404474" />
+    <state width="1238" height="234" key="GridCell.Tab.0.left" timestamp="1629096404474">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1629003849669" />
-    <state width="1238" height="139" key="GridCell.Tab.0.right" timestamp="1629003849669">
+    <state width="1238" height="234" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1629096404474" />
+    <state width="1238" height="234" key="GridCell.Tab.0.right" timestamp="1629096404474">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="139" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1629003849669" />
+    <state width="1238" height="234" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1629096404474" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1628574539570">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1628574539570" />
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1628994947816">
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1629095016936">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1628994947816" />
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1629095016936" />
     <state x="300" y="156" key="run.anything.popup" timestamp="1628351224768">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
