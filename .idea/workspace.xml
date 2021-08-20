@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/compotitiveProgramming/easy/PrintWithoutLoop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compotitiveProgramming/easy/ReverseString.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/Tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/InsertionTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/hello.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +47,7 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.compotitiveProgramming.easy.PrintWithoutLoopKt">
+  <component name="RunManager" selected="Kotlin.data_structure.tree.InsertionTreeKt">
     <configuration name="compotitiveProgramming.easy.PrintWithoutLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -75,19 +74,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="compotitiveProgramming.easy.SearchChannelKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="compotitiveProgramming.easy.SearchChannelKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="compotitiveProgramming.medium.UniquePathKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -96,6 +82,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="compotitiveProgramming.medium.UniquePathKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="data_structure.tree.InsertionTreeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="data_structure.tree.InsertionTreeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.data_structure.tree.InsertionTreeKt" />
         <item itemvalue="Kotlin.compotitiveProgramming.easy.PrintWithoutLoopKt" />
         <item itemvalue="Kotlin.compotitiveProgramming.easy.ReverseStringKt" />
         <item itemvalue="Kotlin.data_structure.tree.TreeKt" />
         <item itemvalue="Kotlin.compotitiveProgramming.medium.UniquePathKt" />
-        <item itemvalue="Kotlin.compotitiveProgramming.easy.SearchChannelKt" />
       </list>
     </recent_temporary>
   </component>
@@ -146,38 +145,54 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1626792550021" />
-    <state width="1238" height="219" key="GridCell.Tab.0.bottom" timestamp="1629392914141">
+    <state width="1238" height="188" key="GridCell.Tab.0.bottom" timestamp="1629473011086">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="219" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1629392914141" />
-    <state width="1238" height="219" key="GridCell.Tab.0.center" timestamp="1629392914141">
+    <state width="1238" height="188" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1629473011086" />
+    <state width="1238" height="188" key="GridCell.Tab.0.center" timestamp="1629473011085">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="219" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1629392914141" />
-    <state width="1238" height="219" key="GridCell.Tab.0.left" timestamp="1629392914141">
+    <state width="1238" height="188" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1629473011085" />
+    <state width="1238" height="188" key="GridCell.Tab.0.left" timestamp="1629473011085">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="219" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1629392914141" />
-    <state width="1238" height="219" key="GridCell.Tab.0.right" timestamp="1629392914141">
+    <state width="1238" height="188" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1629473011085" />
+    <state width="1238" height="188" key="GridCell.Tab.0.right" timestamp="1629473011086">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="219" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1629392914141" />
+    <state width="1238" height="188" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1629473011086" />
+    <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1629448528753">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="208" key="GridCell.Tab.1.bottom/0.0.1280.690@0.0.1280.690" timestamp="1629448528753" />
+    <state width="1238" height="208" key="GridCell.Tab.1.center" timestamp="1629448528753">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="208" key="GridCell.Tab.1.center/0.0.1280.690@0.0.1280.690" timestamp="1629448528753" />
+    <state width="1238" height="208" key="GridCell.Tab.1.left" timestamp="1629448528753">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="208" key="GridCell.Tab.1.left/0.0.1280.690@0.0.1280.690" timestamp="1629448528753" />
+    <state width="1238" height="208" key="GridCell.Tab.1.right" timestamp="1629448528753">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="208" key="GridCell.Tab.1.right/0.0.1280.690@0.0.1280.690" timestamp="1629448528753" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1628574539570">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1628574539570" />
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1629388876973">
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1629445211313">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1629388876973" />
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1629445211313" />
     <state x="300" y="156" key="run.anything.popup" timestamp="1628351224768">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="300" y="156" key="run.anything.popup/0.0.1280.690@0.0.1280.690" timestamp="1628351224768" />
-    <state x="306" y="15" width="672" height="678" key="search.everywhere.popup" timestamp="1628799998192">
+    <state x="307" y="16" width="672" height="678" key="search.everywhere.popup" timestamp="1629450852662">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="306" y="15" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1628799998192" />
+    <state x="307" y="16" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1629450852662" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
