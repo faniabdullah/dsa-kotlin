@@ -14,8 +14,20 @@ class PrintWithoutLoop {
             println(n)
         }
     }
+
+    fun swapWithoutCreateVariabel(): Int {
+        var a = 4
+        var b = 6
+        a += b //10
+        b = a - b // 10 - 6 = 4
+        a -= b // 10 - 4  = 6
+        println(a)
+        println(b)
+        return 0
+    }
+
 }
 
 fun main() {
-    PrintWithoutLoop().solutionWithoutTarget(100)
+    PrintWithoutLoop().swapWithoutCreateVariabel()
 }
