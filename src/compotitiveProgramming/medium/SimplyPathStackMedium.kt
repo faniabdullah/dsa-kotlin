@@ -1,4 +1,4 @@
-package compotitiveProgramming.easy
+package compotitiveProgramming.medium
 
 import java.util.*
 
