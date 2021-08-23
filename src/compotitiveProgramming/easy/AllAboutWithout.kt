@@ -23,6 +23,16 @@ class PrintWithoutLoop {
         a -= b // 10 - 4  = 6
         println(a)
         println(b)
+
+        var c = "tokopedia"
+        var d = "fani abdullah"
+        c += d
+
+        d = c.substring(0, c.length - d.length)
+        c = c.substring(d.length, c.length)
+        println(d)
+        println(c)
+
         return 0
     }
 
