@@ -34,7 +34,7 @@ class QuickSortIteration {
 
 fun main() {
     val quickSortIteration = QuickSortIteration()
-    val array = intArrayOf(90,100,80 , 70)
+    val array = intArrayOf(1, 2, 3, 5, 4, 6, 8, 7)
     quickSortIteration.quickSort(array, 0, array.size - 1)
     println(array.contentToString())
 }
