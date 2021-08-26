@@ -63,6 +63,27 @@ class MergeSortArray {
         }
         nums1.sort()
     }
+
+    val dgts = mapOf('2' to "abc", '3' to "def", '4' to "ghi", '5' to "jkl", '6' to "mno", '7' to "pqrs", '8' to "tuv", '9' to "wxyz")
+    val temp = mutableListOf<String>()
+    val result = mutableListOf<String>()
+    fun letterCombinations(digits: String): List<String> {
+        for (d in  digits){
+            temp += dgts.getValue(d)
+        }
+        println(temp)
+        if (temp.size>0){combinator(temp, 0, "")}
+        return result
+    }
+    fun combinator(temp: List<String>, i: Int, res : String){
+        if (i == temp.size){
+            result.add(res)
+            return
+        }
+        for (right in temp[i]){
+            combinator(temp, i+1, res+right)
+        }
+    }
 }
 
 fun main() {
@@ -70,4 +91,6 @@ fun main() {
     var nums1 = intArrayOf(1, 4, 6, 0, 0, 0)
     val result = mergeSortArray.mergeInPlace(nums1, 3, intArrayOf(1, 5, 6), 3)
     println(nums1.contentToString())
+
+    println(mergeSortArray.letterCombinations("23"))
 }
