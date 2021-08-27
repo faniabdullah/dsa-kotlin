@@ -17,16 +17,12 @@ class RobberHouse {
         }
 
         dp = nums.clone()
-
         for (i in 1 until nums.size) {
             for (j in i + 2 until nums.size) {
                 dp[j] = maxOf(dp[j], nums[j] + dp[i])
             }
         }
-        dp.forEach {
-            maxI = maxOf(it, maxI)
-        }
-
+        maxI = maxOf(dp.max() as Int, maxI)
         return maxI
     }
 }
