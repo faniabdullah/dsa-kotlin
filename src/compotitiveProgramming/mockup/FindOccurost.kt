@@ -17,34 +17,47 @@ class FindOccurost {
     }
 
     fun solutionBNS(nums1: IntArray, target: Int): IntArray {
-
-        var first: Int = Int.MAX_VALUE
-        var last: Int = -1
-        var low = 0
-        var size = nums1.size - 1
-        while (low < size) {
-            val mid: Int = (low + size) / 2
-            if (nums1[mid] == target && nums1[mid + 1] == target) {
-                first = minOf(mid, first)
-                last = maxOf(mid, last)
-                size -= 1
-            } else if (nums1[mid] == target) {
-                first = minOf(mid, first)
-                last = maxOf(mid, last)
-                size = mid
-            } else if (nums1[mid] > target) {
-                low = mid + 1
-            } else {
-                size = mid
-            }
-            println(low)
-            println(size)
-        }
+        val first: Int = first(nums1, 0, nums1.size - 1, target)
+        val last: Int = last(nums1, 0, nums1.size - 1, target)
         return intArrayOf(first, last)
+    }
+
+    private fun first(nums1: IntArray, low: Int, height: Int, target: Int): Int {
+        if (height >= low) {
+            val mid: Int = low + (height - low) / 2
+            return when {
+                nums1[mid] == target && nums1[mid - 1] != target -> {
+                    return mid
+                }
+                target > nums1[mid] -> {
+                    first(nums1, mid + 1, height, target)
+                }
+                else -> {
+                    first(nums1, low, mid, target)
+                }
+            }
+        }
+
+        return -1
+    }
+
+    private fun last(nums1: IntArray, low: Int, height: Int, target: Int): Int {
+        if (height >= low) {
+            val mid: Int = low + (height - low) / 2
+            if ((mid == nums1.size - 1 || target < nums1[mid + 1]) && nums1[mid] == target) {
+                return mid
+            } else if (nums1[mid] > target) {
+                return last(nums1, low, mid - 1, target)
+            } else {
+                return last(nums1, mid + 1, height, target)
+            }
+        }
+
+        return -1
     }
 }
 
 fun main() {
-    val result = FindOccurost().solutionBNS(intArrayOf(1, 2, 2, 2, 2, 3, 4, 7, 8, 8), 2)
+    val result = FindOccurost().solutionBNS(intArrayOf(1, 1, 9), 9)
     println(result.contentToString())
 }

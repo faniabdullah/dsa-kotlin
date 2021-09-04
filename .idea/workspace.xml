@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/searching/DeepUnderstanding.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/searching/BinarySearchRecursive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/searching/BinarySearchRecursive.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/searching/DeepUnderstanding.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/searching/DeepUnderstanding.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/mockup/FindOccurost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/compotitiveProgramming/mockup/FindOccurost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicprogramming/RobberHouse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/RobberHouse.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,20 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.compotitiveProgramming.mockup.FindOccurostKt">
+  <component name="RunManager" selected="Kotlin.dynamicprogramming.RobberHouseKt">
+    <configuration name="algorithms.searching.BinarySearchRecursiveKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchRecursiveKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="algorithms.searching.DeepUnderstandingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -57,19 +72,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="algorithms.searching.DeepUnderstandingKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="compotitiveProgramming.easy.MergeSortArrayKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="compotitiveProgramming.easy.MergeSortArrayKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.dynamicprogramming.RobberHouseKt" />
         <item itemvalue="Kotlin.compotitiveProgramming.mockup.FindOccurostKt" />
         <item itemvalue="Kotlin.algorithms.searching.DeepUnderstandingKt" />
-        <item itemvalue="Kotlin.dynamicprogramming.RobberHouseKt" />
+        <item itemvalue="Kotlin.algorithms.searching.BinarySearchRecursiveKt" />
         <item itemvalue="Kotlin.dynamicprogramming.NewStoneGameKt" />
-        <item itemvalue="Kotlin.compotitiveProgramming.easy.MergeSortArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -146,22 +148,22 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1626792550021" />
-    <state width="1238" height="185" key="GridCell.Tab.0.bottom" timestamp="1630170011363">
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom" timestamp="1630778970730">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1630170011363" />
-    <state width="1238" height="185" key="GridCell.Tab.0.center" timestamp="1630170011363">
+    <state width="1238" height="187" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1630778970730" />
+    <state width="1238" height="187" key="GridCell.Tab.0.center" timestamp="1630778970730">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1630170011363" />
-    <state width="1238" height="185" key="GridCell.Tab.0.left" timestamp="1630170011363">
+    <state width="1238" height="187" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1630778970730" />
+    <state width="1238" height="187" key="GridCell.Tab.0.left" timestamp="1630778970730">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1630170011363" />
-    <state width="1238" height="185" key="GridCell.Tab.0.right" timestamp="1630170011363">
+    <state width="1238" height="187" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1630778970730" />
+    <state width="1238" height="187" key="GridCell.Tab.0.right" timestamp="1630778970730">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="185" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1630170011363" />
+    <state width="1238" height="187" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1630778970730" />
     <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1629448528753">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -182,10 +184,10 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1628574539570" />
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1630166849302">
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1630777374879">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1630166849302" />
+    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1630777374879" />
     <state x="301" y="156" key="run.anything.popup" timestamp="1629474160395">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -221,14 +223,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/compotitiveProgramming/mockup/FindOccurost.kt</url>
-          <line>3</line>
-          <properties class="compotitiveProgramming.mockup.FindOccurost" method="solution">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

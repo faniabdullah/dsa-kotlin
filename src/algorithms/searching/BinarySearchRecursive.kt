@@ -19,6 +19,6 @@ class BinarySearchRecursive {
 fun main() {
     val arraySearch = intArrayOf(2, 5, 8, 12, 16, 23, 38, 56, 72, 91)
     val result = BinarySearchRecursive()
-        .binarySearch(arraySearch, 0, arraySearch.size - 1, 23)
+        .binarySearch(arraySearch, 0, arraySearch.size - 1, 100)
     println(result)
 }

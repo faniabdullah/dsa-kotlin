@@ -25,9 +25,30 @@ class RobberHouse {
         maxI = maxOf(dp.max() as Int, maxI)
         return maxI
     }
+
+    fun rob1(nums: IntArray): Int {
+        val dp = nums.clone()
+
+        // not consider the last
+        for (i in nums.indices) {
+            for (j in i + 2 until nums.size) {
+                dp[j] = maxOf(dp[j], nums[j] + dp[i])
+                println(dp[j])
+                println(i)
+            }
+        }
+        println(dp.contentToString())
+
+        var maxI = 0
+        dp.forEach {
+            maxI = maxOf(it, maxI)
+        }
+        return maxI
+    }
 }
 
 fun main() {
     val robberHouse = RobberHouse()
-    println(robberHouse.rob(intArrayOf(2, 3, 2, 4, 5)))
+    println("result " + robberHouse.rob1(intArrayOf(2, 1, 1, 2)))
+
 }
