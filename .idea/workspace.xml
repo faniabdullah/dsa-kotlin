@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/leetcode_badge_algorithm1/Day2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamicprogramming/RobberHouse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/RobberHouse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/leetcode_badge_algorithm1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/algorithm/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/leetcode_badge_algorithm1/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/algorithm/Day2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -69,7 +65,7 @@
       </method>
     </configuration>
     <configuration name="Day2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.leetcode_badge_algorithm1.Day2Kt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_badge.algorithm.Day2Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,7 +109,7 @@
       <workItem from="1632287538945" duration="287000" />
       <workItem from="1632287865062" duration="1708000" />
       <workItem from="1632300322153" duration="935000" />
-      <workItem from="1632322158575" duration="6292000" />
+      <workItem from="1632322158575" duration="7143000" />
     </task>
     <servers />
   </component>

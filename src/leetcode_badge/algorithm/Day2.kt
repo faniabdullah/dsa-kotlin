@@ -1,4 +1,4 @@
-package algorithms.leetcode_badge_algorithm1
+package leetcode_badge.algorithm
 
 class Day2 {
     fun sortedSquares(nums: IntArray): IntArray {
