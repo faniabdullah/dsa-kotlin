@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/leetcode_level1/Solution day1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/leetcode_badge_algorithm1/Day2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicprogramming/RobberHouse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/RobberHouse.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +34,16 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -47,82 +53,53 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.compotitiveProgramming.hard.EditDistanceKt">
-    <configuration name="algorithms.searching.BinarySearchRecursiveKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Day2Kt">
+    <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchKt" />
       <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchRecursiveKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchRecursiveKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="algorithms.searching.DeepUnderstandingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Day2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.leetcode_badge_algorithm1.Day2Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeepUnderstandingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.searching.DeepUnderstandingKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="compotitiveProgramming.hard.EditDistanceKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="compotitiveProgramming.hard.EditDistanceKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="compotitiveProgramming.mockup.FindOccurostKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="compotitiveProgramming.mockup.FindOccurostKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dynamicprogramming.RobberHouseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration name="dynamicprogramming.RobberHouseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dynamicprogramming.RobberHouseKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.compotitiveProgramming.hard.EditDistanceKt" />
+        <item itemvalue="Kotlin.Day2Kt" />
+        <item itemvalue="Kotlin.BinarySearchKt" />
+        <item itemvalue="Kotlin.DeepUnderstandingKt" />
+        <item itemvalue="Kotlin.BinarySearchRecursiveKt" />
         <item itemvalue="Kotlin.dynamicprogramming.RobberHouseKt" />
-        <item itemvalue="Kotlin.compotitiveProgramming.mockup.FindOccurostKt" />
-        <item itemvalue="Kotlin.algorithms.searching.DeepUnderstandingKt" />
-        <item itemvalue="Kotlin.algorithms.searching.BinarySearchRecursiveKt" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -133,66 +110,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625414516625</updated>
+      <workItem from="1632287538945" duration="287000" />
+      <workItem from="1632287865062" duration="1708000" />
+      <workItem from="1632300322153" duration="935000" />
+      <workItem from="1632322158575" duration="6292000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1628352808993">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state x="321" y="81" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.690@0.0.1280.690" timestamp="1628352808993" />
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1626792550021">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1626792550021" />
-    <state width="1238" height="151" key="GridCell.Tab.0.bottom" timestamp="1630868397531">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state width="1238" height="151" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1630868397531" />
-    <state width="1238" height="151" key="GridCell.Tab.0.center" timestamp="1630868397531">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state width="1238" height="151" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1630868397531" />
-    <state width="1238" height="151" key="GridCell.Tab.0.left" timestamp="1630868397531">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state width="1238" height="151" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1630868397531" />
-    <state width="1238" height="151" key="GridCell.Tab.0.right" timestamp="1630868397531">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state width="1238" height="151" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1630868397531" />
-    <state width="1238" height="208" key="GridCell.Tab.1.bottom" timestamp="1629448528753">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.bottom/0.0.1280.690@0.0.1280.690" timestamp="1629448528753" />
-    <state width="1238" height="208" key="GridCell.Tab.1.center" timestamp="1629448528753">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.center/0.0.1280.690@0.0.1280.690" timestamp="1629448528753" />
-    <state width="1238" height="208" key="GridCell.Tab.1.left" timestamp="1629448528753">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.left/0.0.1280.690@0.0.1280.690" timestamp="1629448528753" />
-    <state width="1238" height="208" key="GridCell.Tab.1.right" timestamp="1629448528753">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state width="1238" height="208" key="GridCell.Tab.1.right/0.0.1280.690@0.0.1280.690" timestamp="1629448528753" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1628574539570">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1628574539570" />
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1632230689907">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state x="336" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.690@0.0.1280.690" timestamp="1632230689907" />
-    <state x="301" y="156" key="run.anything.popup" timestamp="1629474160395">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state x="301" y="156" key="run.anything.popup/0.0.1280.690@0.0.1280.690" timestamp="1629474160395" />
-    <state x="310" y="18" width="672" height="678" key="search.everywhere.popup" timestamp="1630863821609">
-      <screen x="0" y="0" width="1280" height="690" />
-    </state>
-    <state x="310" y="18" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1630863821609" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

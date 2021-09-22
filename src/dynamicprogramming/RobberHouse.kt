@@ -22,7 +22,7 @@ class RobberHouse {
                 dp[j] = maxOf(dp[j], nums[j] + dp[i])
             }
         }
-        maxI = maxOf(dp.max() as Int, maxI)
+        maxI = maxOf(dp.maxOrNull() as Int, maxI)
         return maxI
     }
 
