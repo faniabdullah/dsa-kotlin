@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/leetcode_badge_algorithm1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/algorithm/Day1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/leetcode_badge_algorithm1/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/algorithm/Day2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +40,16 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\E7470\IdeaProjects\data-structures-and-algorithms-kotlin\src\leetcode_badge\algorithm" />
       <recent name="D:\data-structures-and-algorithms-kotlin\src\compotitiveProgramming\medium" />
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day2Kt">
+  <component name="RunManager" selected="Kotlin.Day1Kt">
     <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -59,6 +59,13 @@
     </configuration>
     <configuration name="BinarySearchRecursiveKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchRecursiveKt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day1Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,20 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dynamicprogramming.RobberHouseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dynamicprogramming.RobberHouseKt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day1Kt" />
         <item itemvalue="Kotlin.Day2Kt" />
         <item itemvalue="Kotlin.BinarySearchKt" />
         <item itemvalue="Kotlin.DeepUnderstandingKt" />
         <item itemvalue="Kotlin.BinarySearchRecursiveKt" />
-        <item itemvalue="Kotlin.dynamicprogramming.RobberHouseKt" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +109,8 @@
       <workItem from="1632287538945" duration="287000" />
       <workItem from="1632287865062" duration="1708000" />
       <workItem from="1632300322153" duration="935000" />
-      <workItem from="1632322158575" duration="7143000" />
+      <workItem from="1632322158575" duration="9135000" />
+      <workItem from="1632337029458" duration="608000" />
     </task>
     <servers />
   </component>
