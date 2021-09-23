@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1urCrAWWY8bt63AoafBFGQzsU8S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,7 +58,7 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day2Kt (1)">
+  <component name="RunManager" selected="Kotlin.Day1Kt">
     <configuration name="Day1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day1Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -88,9 +96,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day1Kt" />
         <item itemvalue="Kotlin.Day2Kt (1)" />
         <item itemvalue="Kotlin.LongestValidParenthesisKt" />
-        <item itemvalue="Kotlin.Day1Kt" />
         <item itemvalue="Kotlin.EditDistanceKt" />
         <item itemvalue="Kotlin.InsertionTreeKt" />
       </list>
@@ -113,7 +121,8 @@
       <workItem from="1632322158575" duration="9135000" />
       <workItem from="1632337029458" duration="856000" />
       <workItem from="1632338350902" duration="161000" />
-      <workItem from="1632372255295" duration="7295000" />
+      <workItem from="1632372255295" duration="9098000" />
+      <workItem from="1632403743900" duration="5785000" />
     </task>
     <servers />
   </component>

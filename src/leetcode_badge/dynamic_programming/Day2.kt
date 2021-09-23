@@ -1,5 +1,7 @@
 package leetcode_badge.dynamic_programming
 
+import kotlin.math.cos
+
 class Day2 {
     // https://leetcode.com/problems/climbing-stairs/
     // Bottom up
@@ -16,7 +18,17 @@ class Day2 {
         return result
     }
 
+    // in place
     fun minCostClimbingStairs(cost: IntArray): Int {
+        for (i in cost.size - 1 downTo 0) {
+            if (i == cost.lastIndex || i == cost.lastIndex - 1) cost[i] += 0
+            else cost[i] += minOf(cost[i + 1], cost[i + 2])
+        }
+        return minOf(cost[0], cost[1])
+    }
+
+    // +dp
+    fun minCost(cost: IntArray): Int {
         val n: Int = cost.size
         val dp = IntArray(n + 1)
         dp[n - 1] = cost[n - 1]
@@ -25,9 +37,8 @@ class Day2 {
         }
         return minOf(dp[0], dp[1])
     }
-
 }
 
 fun main() {
-    println(Day2().minCostClimbingStairs(intArrayOf(0, 1, 2, 2)))
+    println(Day2().minCostClimbingStairs(intArrayOf(1, 100, 1, 1, 1, 100, 1, 1, 100, 1)))
 }
