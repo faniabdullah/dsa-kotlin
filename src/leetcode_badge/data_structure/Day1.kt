@@ -1,6 +1,7 @@
 package leetcode_badge.data_structure
 
-import kotlin.math.sin
+import java.util.*
+
 
 class Day1 {
     fun singleNumber(nums: IntArray): Int {
@@ -18,6 +19,11 @@ class Day1 {
         }
         return singleNumber
 
+    }
+
+    fun majorityElement(nums: IntArray): Int {
+        nums.sort()
+        return nums[nums.size / 2]
     }
 }
 
