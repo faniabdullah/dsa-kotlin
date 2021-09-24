@@ -1,6 +1,5 @@
 package leetcode_badge.dynamic_programming
 
-import kotlin.math.cos
 
 class Day2 {
     // https://leetcode.com/problems/climbing-stairs/
