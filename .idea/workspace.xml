@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/algorithm/Day3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day2Kt">
+  <component name="RunManager" selected="Kotlin.Day3Kt">
     <configuration name="Day1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day1Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -80,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditDistanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="compotitiveProgramming.hard.EditDistanceKt" />
+    <configuration name="Day3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_badge.algorithm.Day3Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day3Kt" />
         <item itemvalue="Kotlin.Day2Kt" />
         <item itemvalue="Kotlin.Day1Kt" />
         <item itemvalue="Kotlin.Day2Kt (1)" />
         <item itemvalue="Kotlin.LongestValidParenthesisKt" />
-        <item itemvalue="Kotlin.EditDistanceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +123,7 @@
       <workItem from="1632372255295" duration="9098000" />
       <workItem from="1632403743900" duration="6472000" />
       <workItem from="1632474749934" duration="1553000" />
-      <workItem from="1632494051976" duration="9123000" />
+      <workItem from="1632494051976" duration="16819000" />
     </task>
     <servers />
   </component>
