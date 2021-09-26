@@ -42,6 +42,4 @@ fun main() {
     println(charArray.contentToString())
     Day4().reverseString(charArray)
     println(charArray.contentToString())
-
-    println(Day4().reverseWords(" faniabdullah 345 421 risa evi gilang ersan dina nadin "))
 }
