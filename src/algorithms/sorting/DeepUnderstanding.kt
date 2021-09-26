@@ -23,6 +23,24 @@ class DeepUnderstanding {
         }
     }
 
+    fun bubbleSortUnderstanding(intArray: IntArray) {
+        var swapElement = false
+        for (i in intArray.indices) {
+            swapElement = false
+            for (j in 0 until intArray.size - 1 - i) {
+                if (intArray[j] > intArray[j + 1]) {
+                    val temp = intArray[j]
+                    intArray[j] = intArray[j + 1]
+                    intArray[j + 1] = temp
+                }
+                swapElement = true
+            }
+            if (!swapElement) {
+                break
+            }
+        }
+    }
+
     fun quickSort(intArray: IntArray, low: Int, height: Int) {
         if (low < height) {
             val partition = partition(intArray, low, height)
@@ -45,6 +63,29 @@ class DeepUnderstanding {
 
         return indexPivot
     }
+
+    fun quickSortUnderStanding(intArray: IntArray, low: Int, height: Int) {
+        if (low < height) {
+            val pi = partitionUnderstanding(intArray, low, height)
+            quickSortUnderStanding(intArray, low, pi - 1)
+            quickSortUnderStanding(intArray, pi + 1, height)
+        }
+    }
+
+    private fun partitionUnderstanding(intArray: IntArray, low: Int, height: Int): Int {
+        val pivot = intArray[height]
+        var indexPivot = low - 1
+        for (i in low..height) {
+            if (intArray[i] <= pivot) {
+                indexPivot++
+                val temp = intArray[indexPivot]
+                intArray[indexPivot] = intArray[i]
+                intArray[i] = temp
+            }
+        }
+        return indexPivot
+    }
+
 }
 
 

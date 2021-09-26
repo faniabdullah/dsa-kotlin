@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/bit_manipulation/BitManipulation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/algorithm/Day4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_badge/algorithm/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/algorithm/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/DeepUnderstanding.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sorting/DeepUnderstanding.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="current_page" value="2" />
+    <property name="day3 dsa" value="Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.&#10;&#10;In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:&#10;&#10;  &#9; 1&#10; &#9; 1 1&#10;&#9; 1 2 1&#10;&#9;1 3 3 1&#10;       1 4 6 4 1&#10;&#10; n" />
+    <property name="font_size" value="12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/htdocs/sidamas" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="notes" value="asd" />
+    <property name="page_titles" value="Notes&#10;Day3 DSA" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,37 +66,37 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day3Kt">
-    <configuration name="Day1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day1Kt" />
+  <component name="RunManager" selected="Kotlin.Day4Kt">
+    <configuration name="BitManipulationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.bit_manipulation.BitManipulationKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day2Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.dynamic_programming.Day2Kt" />
+    <configuration name="BubbleSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.BubbleSortKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day2Kt" />
+    <configuration name="Day3Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day3Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.algorithm.Day3Kt" />
+    <configuration name="Day4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_badge.algorithm.Day4Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestValidParenthesisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="compotitiveProgramming.hard.LongestValidParenthesisKt" />
+    <configuration name="DeepUnderstandingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.DeepUnderstandingKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day3Kt" />
-        <item itemvalue="Kotlin.Day2Kt" />
-        <item itemvalue="Kotlin.Day1Kt" />
-        <item itemvalue="Kotlin.Day2Kt (1)" />
-        <item itemvalue="Kotlin.LongestValidParenthesisKt" />
+        <item itemvalue="Kotlin.Day4Kt" />
+        <item itemvalue="Kotlin.BitManipulationKt" />
+        <item itemvalue="Kotlin.DeepUnderstandingKt" />
+        <item itemvalue="Kotlin.BubbleSortKt" />
+        <item itemvalue="Kotlin.Day3Kt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +132,10 @@
       <workItem from="1632372255295" duration="9098000" />
       <workItem from="1632403743900" duration="6472000" />
       <workItem from="1632474749934" duration="1553000" />
-      <workItem from="1632494051976" duration="18411000" />
+      <workItem from="1632494051976" duration="18652000" />
+      <workItem from="1632517165823" duration="579000" />
+      <workItem from="1632587619275" duration="3950000" />
+      <workItem from="1632640912238" duration="7705000" />
     </task>
     <servers />
   </component>
