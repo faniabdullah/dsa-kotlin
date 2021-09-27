@@ -15,7 +15,6 @@ class Day4 {
 
     fun reverseWords(s: String): String {
         val result = s.toCharArray()
-        // Let's take LeetCode contest
         var lastAssign = 0
         var left = 0
         while (left < s.length) {
