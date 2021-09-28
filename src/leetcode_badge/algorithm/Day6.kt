@@ -34,7 +34,8 @@ class Day6 {
                 currentRunStartIndex = maxOf(lastSeenIndices[this], currentRunStartIndex)
                 longest = maxOf(longest, index - currentRunStartIndex + 1)
                 lastSeenIndices[this] = index + 1
-                println(" index $index - $currentRunStartIndex and $longest")
+
+                println(" index $index - $currentRunStartIndex and $longest , lastSeen  ${lastSeenIndices[this]}")
             }
         }
         return longest
