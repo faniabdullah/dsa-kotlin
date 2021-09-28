@@ -31,7 +31,6 @@ class Day6 {
         val lastSeenIndices = IntArray(128)
         s.toCharArray().forEachIndexed { index, char ->
             with(char.code) {
-
                 currentRunStartIndex = maxOf(lastSeenIndices[this], currentRunStartIndex)
                 longest = maxOf(longest, index - currentRunStartIndex + 1)
                 lastSeenIndices[this] = index + 1
