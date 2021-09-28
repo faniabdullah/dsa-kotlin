@@ -25,9 +25,26 @@ class Day6 {
         return true
     }
 
+    fun lengthOfLongestSubstring(s: String): Int {
+        var longest = 0
+        var currentRunStartIndex = 0
+        val lastSeenIndices = IntArray(128)
+        s.toCharArray().forEachIndexed { index, char ->
+            with(char.code) {
+
+                currentRunStartIndex = maxOf(lastSeenIndices[this], currentRunStartIndex)
+                longest = maxOf(longest, index - currentRunStartIndex + 1)
+                lastSeenIndices[this] = index + 1
+                println(" index $index - $currentRunStartIndex and $longest")
+            }
+        }
+        return longest
+    }
+
 }
 
 
 fun main() {
     println(Day6().checkInclusion("fabi", "ibafsalsaila"))
+    println(Day6().lengthOfLongestSubstring("abcabcbb"))
 }
