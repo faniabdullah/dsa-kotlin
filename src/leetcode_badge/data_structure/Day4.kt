@@ -1,7 +1,5 @@
 package leetcode_badge.data_structure
 
-import java.util.*
-
 class Day4 {
     fun searchMatrix(matrix: Array<IntArray>, target: Int): Boolean {
 
