@@ -4,29 +4,31 @@ package leetcode_badge.data_structure
 class Day5 {
     fun productExceptSelf(nums: IntArray): IntArray {
         val newNums = IntArray(nums.size) { 1 }
-        var fromStartProduct = 1
-        var fromEndProduct = 1
+        var startIndexValue = 1
+        var endIndexValue = 1
         for (i in nums.indices) {
-            newNums[i] *= fromStartProduct
-            newNums[nums.size - 1 - i] *= fromEndProduct
-            fromStartProduct *= nums[i]
-            fromEndProduct *= nums[nums.size - 1 - i]
+            newNums[i] *= startIndexValue
+            newNums[nums.lastIndex - i] = endIndexValue
+            startIndexValue *= nums[i]
+            endIndexValue *= nums[nums.lastIndex - i]
         }
-        return newNums
+
+        return nums
     }
 
 
     fun subarraySum(nums: IntArray, k: Int): Int {
-        var count = 0
+        val hashMap = HashMap<Int, Int>()
+        var counter = 0
         var sum = 0
-        val map = HashMap<Int, Int>()
-        map[0] = 1
-        for (i in nums.indices) {
+        for (i in nums) {
             sum += nums[i]
-            if (map.containsKey(sum - k)) count += map[sum - k]!!
-            map[sum] = map.getOrDefault(sum, 0) + 1
+            if (hashMap.containsKey(sum - k)) counter += hashMap[sum - k] as Int
+            hashMap[sum] = hashMap.getOrDefault(sum, 0) + 1
+
+            counter++
         }
-        return count
+        return counter
     }
 
 }
