@@ -40,43 +40,6 @@ class Day7 {
         }
         return res
     }
-
-    internal class Solution {
-        fun stoneGame(piles: IntArray): Boolean {
-            val N = piles.size
-            val dp = Array(N + 2) { IntArray(N + 2) }
-            for (size in 1..N) {
-                var i = 0
-                while (i + size <= N) {
-                    val j = i + size - 1
-                    val parity = (j + i + N) % 2
-                    if (parity == 1) dp[i + 1][j + 1] =
-                        maxOf(piles[i] + dp[i + 2][j + 1], piles[j] + dp[i + 1][j]) else dp[i + 1][j + 1] =
-                        minOf(-piles[i] + dp[i + 2][j + 1], -piles[j] + dp[i + 1][j])
-                    ++i
-                }
-            }
-            return dp[1][N] > 0
-        }
-
-        internal class Solution {
-            fun partitionLabels(S: String): List<Int?> {
-                val last = IntArray(26)
-                for (i in 0 until S.length) last[S[i] - 'a'] = i
-                var j = 0
-                var anchor = 0
-                val ans: MutableList<Int?> = mutableListOf()
-                for (i in S.indices) {
-                    j = Math.max(j, last[S[i] - 'a'])
-                    if (i == j) {
-                        ans.add(i - anchor + 1)
-                        anchor = i + 1
-                    }
-                }
-                return ans
-            }
-        }
-    }
 }
 
 fun main() {
