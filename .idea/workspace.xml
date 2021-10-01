@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day7.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day5.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day6Kt (1)">
+  <component name="RunManager" selected="Kotlin.Day5Kt (1)">
     <configuration name="Day4Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode_badge.dynamic_programming.Day4Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -72,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day4Kt" />
+    <configuration name="Day5Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_badge.dynamic_programming.Day5Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.algorithm.Day6Kt" />
+    <configuration name="Day7Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day7Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day5Kt (1)" />
+        <item itemvalue="Kotlin.Day7Kt" />
         <item itemvalue="Kotlin.Day6Kt (1)" />
         <item itemvalue="Kotlin.Day5Kt" />
         <item itemvalue="Kotlin.Day4Kt (1)" />
-        <item itemvalue="Kotlin.Day6Kt" />
-        <item itemvalue="Kotlin.Day4Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +141,8 @@
       <workItem from="1632809585851" duration="18595000" />
       <workItem from="1632904283331" duration="4667000" />
       <workItem from="1632929455293" duration="5413000" />
+      <workItem from="1632940051743" duration="4507000" />
+      <workItem from="1633011642774" duration="6931000" />
     </task>
     <servers />
   </component>
