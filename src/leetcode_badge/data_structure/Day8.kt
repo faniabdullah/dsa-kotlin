@@ -26,12 +26,39 @@ class Day8 {
         }
     }.values.toList()
 
+
+    fun multiply(num1: String, num2: String): String {
+        if ("0" == num1 || "0" == num2)
+            return "0"
+
+        val list = Array(num1.length + num2.length - 1){0}
+
+        for (i in num1.length - 1 downTo 0) {
+            for (j in num2.length - 1 downTo 0) {
+                list[i + j] += (num1[i] - '0') * (num2[j] - '0')
+            }
+        }
+
+        for (i in list.size - 1 downTo 1) {
+            list[i - 1] += list[i] / 10
+
+            list[i] %= 10
+
+        }
+
+
+        val builder = StringBuilder()
+        list.forEach {
+            builder.append(it)
+        }
+
+        return builder.toString()
+    }
+
 }
 
 fun main() {
     val result = Day8().groupAnagramsOneLine(arrayOf("eat", "tea", "tan", "ate", "nat", "bat"))
 
-    result.forEach {
-        println(it)
-    }
+    println(Day8().multiply("145","12"))
 }

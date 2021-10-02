@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day8.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day9.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day7.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day8.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="rotatedimage" value="for (j in matrix[0].indices) {&#10;                val temp = matrix[top - i][j]&#10;                matrix[top - i][j] = matrix[top - j][topRight]&#10;                matrix[top - j][topRight] = temp&#10;                &#10;                val tempBottom = matrix[bottomLeft - i][bottomLeft - i]&#10;                matrix[bottomLeft - j][j] = matrix[bottom - j][rightBottom - j]&#10;                matrix[bottom ][rightBottom - j] = tempBottom&#10;            }" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -143,7 +143,8 @@
       <workItem from="1632929455293" duration="5413000" />
       <workItem from="1632940051743" duration="4507000" />
       <workItem from="1633011642774" duration="6931000" />
-      <workItem from="1633073637513" duration="9228000" />
+      <workItem from="1633073637513" duration="11156000" />
+      <workItem from="1633195284596" duration="3820000" />
     </task>
     <servers />
   </component>
@@ -183,5 +184,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
