@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/data_structure/tree/TreeTravelsal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day6.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day6.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +65,16 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day6Kt">
+  <component name="RunManager" selected="Kotlin.Day6Kt (1)">
     <configuration name="BinaryTreeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data_structure.tree.BinaryTreeKt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day6Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_badge.dynamic_programming.Day6Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,15 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphBFSKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data_structure.tree.GraphBFSKt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeBFSKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data_structure.tree.TreeBFSKt" />
+    <configuration name="TreeTravelsalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structure.tree.TreeTravelsalKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day6Kt (1)" />
+        <item itemvalue="Kotlin.TreeTravelsalKt" />
         <item itemvalue="Kotlin.Day6Kt" />
         <item itemvalue="Kotlin.Day8Kt" />
         <item itemvalue="Kotlin.BinaryTreeKt" />
-        <item itemvalue="Kotlin.TreeBFSKt" />
-        <item itemvalue="Kotlin.GraphBFSKt" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +145,10 @@
       <workItem from="1633011642774" duration="6931000" />
       <workItem from="1633073637513" duration="11156000" />
       <workItem from="1633195284596" duration="4337000" />
-      <workItem from="1633253600515" duration="643000" />
+      <workItem from="1633253600515" duration="2117000" />
+      <workItem from="1633278545299" duration="5988000" />
+      <workItem from="1633329025928" duration="658000" />
+      <workItem from="1633360378962" duration="2488000" />
     </task>
     <servers />
   </component>
