@@ -8,7 +8,7 @@ class Day6 {
         var max = nums[0]
         var res = nums[0]
 
-        for (i in 1..nums.size - 1) {
+        for (i in 1 until nums.size) {
             val tmp = max
             val n = nums[i]
 
