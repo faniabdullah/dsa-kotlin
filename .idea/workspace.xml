@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode_daily_chalange/FindAllDuplicatesinanArray.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day9.kt" afterDir="false" />
     </list>
@@ -64,7 +65,14 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day9Kt">
+  <component name="RunManager" selected="Kotlin.Day5Kt">
+    <configuration name="Day5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day5Kt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Day6Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode_badge.dynamic_programming.Day6Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -72,22 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day6Kt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day8Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day8Kt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Day9Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day9Kt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.RecursiveQuizKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day5Kt" />
         <item itemvalue="Kotlin.Day9Kt" />
+        <item itemvalue="Kotlin.RecursiveQuizKt" />
         <item itemvalue="Kotlin.Day6Kt (1)" />
         <item itemvalue="Kotlin.TreeTravelsalKt" />
-        <item itemvalue="Kotlin.Day6Kt" />
-        <item itemvalue="Kotlin.Day8Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +149,8 @@
       <workItem from="1633278545299" duration="5988000" />
       <workItem from="1633329025928" duration="658000" />
       <workItem from="1633360378962" duration="3941000" />
-      <workItem from="1633448465414" duration="2744000" />
+      <workItem from="1633448465414" duration="3535000" />
+      <workItem from="1633477139084" duration="4125000" />
     </task>
     <servers />
   </component>

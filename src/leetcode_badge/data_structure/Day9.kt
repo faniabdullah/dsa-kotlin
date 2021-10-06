@@ -55,6 +55,20 @@ class Day9 {
         return resultSet?.next
     }
 
+    fun reverseList(head: ListNode?): ListNode? {
+        if (head?.next == null)
+            return head
+
+        return recurseReverse(head, null)
+    }
+
+    private fun recurseReverse(p: ListNode?, l: ListNode?): ListNode? {
+        if (p == null) return l
+        val n = p.next
+        p.next = l
+        return recurseReverse(n, p)
+    }
+
 }
 
 fun printLinkedList(linkedList: ListNode?) {
@@ -74,6 +88,6 @@ fun main() {
     l2.next = ListNode(3)
     l2.next?.next = ListNode(4)
 
-    val linkedListResult = Day9().mergeTwoLists(l1, l2)
+    val linkedListResult = Day9().reverseList(l1)
     printLinkedList(linkedListResult)
 }
