@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_daily_chalange/WordSearch.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/dynamic_programming/Day6.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day9.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,8 @@
       <workItem from="1633533766455" duration="2474000" />
       <workItem from="1633539306223" duration="156000" />
       <workItem from="1633539495776" duration="3079000" />
-      <workItem from="1633592549736" duration="7867000" />
+      <workItem from="1633592549736" duration="9909000" />
+      <workItem from="1633618243685" duration="1554000" />
     </task>
     <servers />
   </component>

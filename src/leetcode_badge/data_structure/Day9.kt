@@ -69,6 +69,28 @@ class Day9 {
         return recurseReverse(n, p)
     }
 
+    fun detectCycle(head: ListNode?): ListNode? {
+        var head: ListNode? = head ?: return null
+        while (head != null) {
+            if (head.`val` == Int.MAX_VALUE) {
+                return head
+            }
+            head.`val` = Int.MAX_VALUE
+            head = if (head.next == null) return null else head.next
+        }
+        return null
+    }
+
+    fun getIntersectionNode(headA: ListNode?, headB: ListNode?): ListNode? {
+        var a = headA
+        var b = headB
+        while (a != b) {
+            a = if (a == null) headB else a.next
+            b = if (b == null) headA else b.next
+        }
+        return a
+    }
+
 }
 
 fun printLinkedList(linkedList: ListNode?) {
