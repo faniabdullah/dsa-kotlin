@@ -55,7 +55,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="rotatedimage" value="for (j in matrix[0].indices) {&#10;                val temp = matrix[top - i][j]&#10;                matrix[top - i][j] = matrix[top - j][topRight]&#10;                matrix[top - j][topRight] = temp&#10;                &#10;                val tempBottom = matrix[bottomLeft - i][bottomLeft - i]&#10;                matrix[bottomLeft - j][j] = matrix[bottom - j][rightBottom - j]&#10;                matrix[bottom ][rightBottom - j] = tempBottom&#10;            }" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -64,7 +64,7 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.WordSearchKt">
+  <component name="RunManager" selected="Kotlin.Day9Kt">
     <configuration name="Day5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day5Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -102,10 +102,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day9Kt" />
         <item itemvalue="Kotlin.WordSearchKt" />
         <item itemvalue="Kotlin.Day6Kt (1)" />
         <item itemvalue="Kotlin.Day5Kt" />
-        <item itemvalue="Kotlin.Day9Kt" />
         <item itemvalue="Kotlin.RecursiveQuizKt" />
       </list>
     </recent_temporary>
@@ -154,7 +154,8 @@
       <workItem from="1633539306223" duration="156000" />
       <workItem from="1633539495776" duration="3079000" />
       <workItem from="1633592549736" duration="9909000" />
-      <workItem from="1633618243685" duration="1554000" />
+      <workItem from="1633618243685" duration="8553000" />
+      <workItem from="1633682013611" duration="805000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,18 @@
 package leetcode_badge.data_structure
 
 
-class ListNode(var `val`: Int) {
+
+class ListNode {
+    var `val` = 0
     var next: ListNode? = null
+    internal constructor() {}
+    constructor(`val`: Int) {
+        this.`val` = `val`
+    }
+    constructor(`val`: Int, next: ListNode?) {
+        this.`val` = `val`
+        this.next = next
+    }
 }
 
 
@@ -91,11 +101,49 @@ class Day9 {
         return a
     }
 
+    fun deleteDuplicates(head: ListNode?): ListNode? {
+        val dumpHead: ListNode? = ListNode(Int.MIN_VALUE, head)
+        var knight = dumpHead?.next // the start point
+        var lastValidatedNode = dumpHead // the pointer will run to check node by node
+
+        while (knight != null) {
+            if (knight.`val` == knight.next?.`val`) {
+                while (knight != null && knight.`val` == knight.next?.`val`) {
+                    knight = knight.next
+                }
+                lastValidatedNode?.next = knight?.next
+            } else {
+                lastValidatedNode = lastValidatedNode?.next
+            }
+            knight = knight?.next
+        }
+        return dumpHead?.next
+    }
+
+    private fun swap(node1: ListNode?, node2: ListNode?): ListNode? {
+        if (node1 == null) return null
+        if (node2 == null) return node1
+
+        val nextPair = node2.next
+        node2.next = node1
+        node1.next = swap(nextPair, nextPair?.next)
+        return node2
+    }
+
+    fun swapPairs(head: ListNode?): ListNode? {
+        return swap(head, head?.next)
+    }
+
+    fun reverseKGroup(head: ListNode?, k: Int): ListNode? {
+
+    }
 }
 
 fun printLinkedList(linkedList: ListNode?) {
+    println()
     var current = linkedList
     while (current != null) {
+
         print("" + current.`val` + " ")
         current = current.next
     }
@@ -106,10 +154,18 @@ fun main() {
     val l1 = ListNode(1)
     l1.next = ListNode(2)
     l1.next?.next = ListNode(4)
+    l1.next?.next?.next = ListNode(5)
+    l1.next?.next?.next?.next = ListNode(5)
+    l1.next?.next?.next?.next?.next = ListNode(9)
+    l1.next?.next?.next?.next?.next?.next = ListNode(7)
+    l1.next?.next?.next?.next?.next?.next?.next = ListNode(7)
+    l1.next?.next?.next?.next?.next?.next?.next?.next = ListNode(7)
+    l1.next?.next?.next?.next?.next?.next?.next?.next?.next = ListNode(7)
+
     val l2 = ListNode(1)
     l2.next = ListNode(3)
     l2.next?.next = ListNode(4)
 
-    val linkedListResult = Day9().reverseList(l1)
+    val linkedListResult = Day9().deleteDuplicates(l1)
     printLinkedList(linkedListResult)
 }
