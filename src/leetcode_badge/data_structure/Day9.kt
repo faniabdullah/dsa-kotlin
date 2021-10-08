@@ -1,14 +1,15 @@
 package leetcode_badge.data_structure
 
 
-
 class ListNode {
     var `val` = 0
     var next: ListNode? = null
+
     internal constructor() {}
     constructor(`val`: Int) {
         this.`val` = `val`
     }
+
     constructor(`val`: Int, next: ListNode?) {
         this.`val` = `val`
         this.next = next
@@ -72,13 +73,6 @@ class Day9 {
         return recurseReverse(head, null)
     }
 
-    private fun recurseReverse(p: ListNode?, l: ListNode?): ListNode? {
-        if (p == null) return l
-        val n = p.next
-        p.next = l
-        return recurseReverse(n, p)
-    }
-
     fun detectCycle(head: ListNode?): ListNode? {
         var head: ListNode? = head ?: return null
         while (head != null) {
@@ -134,9 +128,45 @@ class Day9 {
         return swap(head, head?.next)
     }
 
-    fun reverseKGroup(head: ListNode?, k: Int): ListNode? {
 
+    fun reverseKGroup(head: ListNode?, k: Int): ListNode? {
+        if (head == null || k == 1) {
+            return head
+        }
+        val dummy = ListNode(0)
+        dummy.next = head
+        var cur: ListNode? = dummy
+        var next: ListNode? = dummy
+        var pre: ListNode? = dummy
+        // Now find count of the linked list
+        var count = 0
+        while (cur!!.next != null) {
+            cur = cur.next
+            count++
+        }
+        while (count >= k) {
+            cur = pre!!.next // Point to first node
+            next = cur!!.next // point to second node
+            // k-1 Operation to reverse k list
+            for (i in 1 until k) {
+                cur.next = next!!.next
+                next.next = pre.next
+                pre.next = next
+                next = cur.next
+            }
+            pre = cur
+            count -= k
+        }
+        return dummy.next
     }
+
+    private fun recurseReverse(p: ListNode?, l: ListNode?): ListNode? {
+        if (p == null) return l
+        val n = p.next
+        p.next = l
+        return recurseReverse(n, p)
+    }
+
 }
 
 fun printLinkedList(linkedList: ListNode?) {
