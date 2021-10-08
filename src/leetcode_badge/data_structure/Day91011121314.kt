@@ -154,6 +154,7 @@ class Day9 {
                 pre.next = next
                 next = cur.next
             }
+
             pre = cur
             count -= k
         }
