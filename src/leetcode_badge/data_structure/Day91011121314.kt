@@ -66,12 +66,6 @@ class Day9 {
         return resultSet?.next
     }
 
-    fun reverseList(head: ListNode?): ListNode? {
-        if (head?.next == null)
-            return head
-
-        return recurseReverse(head, null)
-    }
 
     fun detectCycle(head: ListNode?): ListNode? {
         var head: ListNode? = head ?: return null
@@ -159,6 +153,14 @@ class Day9 {
             count -= k
         }
         return dummy.next
+    }
+
+
+    fun reverseList(head: ListNode?): ListNode? {
+        if (head?.next == null)
+            return head
+
+        return recurseReverse(head, null)
     }
 
     private fun recurseReverse(p: ListNode?, l: ListNode?): ListNode? {
