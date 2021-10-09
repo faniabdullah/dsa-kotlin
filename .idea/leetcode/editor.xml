@@ -21,6 +21,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/ReverseLinkedList.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/ReverseLinkedList.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/ReverseLinkedList.kt" />
+              <option name="questionId" value="206" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/TwoSum.kt">
           <value>
             <LeetcodeEditor>
