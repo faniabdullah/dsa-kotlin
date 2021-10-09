@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/TwoSum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/all.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/RegularExpressionMatching.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/TwoSum.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/solution/two-sum.lcv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/submission/TwoSum529880144.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day91011121314.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_badge/data_structure/Day91011121314.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +47,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -66,21 +74,21 @@
   </component>
   <component name="RunManager" selected="Kotlin.Day91011121314Kt">
     <configuration name="Day5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day5Kt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_study_badge.data_structure.Day5Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day6Kt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.dynamic_programming.Day6Kt" />
+    <configuration name="Day6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_study_badge.dynamic_programming.Day6Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Day91011121314Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_badge.data_structure.Day91011121314Kt" />
+      <option name="MAIN_CLASS_NAME" value="leetcode_study_badge.data_structure.Day91011121314Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,7 +167,7 @@
       <workItem from="1633704796031" duration="5827000" />
       <workItem from="1633712090122" duration="1732000" />
       <workItem from="1633715266566" duration="1897000" />
-      <workItem from="1633763218512" duration="7099000" />
+      <workItem from="1633763218512" duration="8273000" />
     </task>
     <servers />
   </component>
@@ -177,6 +185,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
