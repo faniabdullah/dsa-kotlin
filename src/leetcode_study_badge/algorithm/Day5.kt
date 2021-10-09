@@ -1,4 +1,4 @@
-package leetcode_badge.algorithm
+package leetcode_study_badge.algorithm
 
 import data_structure.linkedlist.SinglyLinkedList.Node
 

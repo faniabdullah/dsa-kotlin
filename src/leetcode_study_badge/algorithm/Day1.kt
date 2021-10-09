@@ -1,4 +1,4 @@
-package leetcode_badge.algorithm
+package leetcode_study_badge.algorithm
 
 class Day1 {
     fun searchInsert(nums: IntArray, target: Int): Int {

@@ -1,4 +1,4 @@
-package leetcode_badge.dynamic_programming
+package leetcode_study_badge.dynamic_programming
 
 class Day3 {
     // https://leetcode.com/problems/house-robber/

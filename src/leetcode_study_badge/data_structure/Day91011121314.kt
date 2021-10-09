@@ -1,4 +1,4 @@
-package leetcode_badge.data_structure
+package leetcode_study_badge.data_structure
 
 
 class ListNode {
@@ -112,10 +112,10 @@ class Day9 {
         if (node1 == null) return null
         if (node2 == null) return node1
 
-        val nextPair = node2.next
-        node2.next = node1
+        val nextPair = node2.next // 3
+        node2.next = node1 // 1
         node1.next = swap(nextPair, nextPair?.next)
-        return node2
+        return node2 // 2
     }
 
     fun swapPairs(head: ListNode?): ListNode? {
@@ -169,6 +169,31 @@ class Day9 {
         p.next = l
         return recurseReverse(n, p)
     }
+
+    fun reverseLinkedList(head: ListNode?): ListNode? {
+        return reverseLinkedListHelp(head, head)
+    }
+
+    private fun reverseLinkedListHelp(head: ListNode?, newHead: ListNode?): ListNode? {
+        if (head == null) return newHead
+        val tempLinkedListOld = head.next
+        head.next = newHead
+        return reverseLinkedListHelp(tempLinkedListOld, head)
+    }
+
+
+    fun interSectionLinkedList(headA: ListNode?, headB: ListNode?): ListNode? {
+        var a = headA
+        var b = headB
+        while (a != b) {
+            a = if (a == null) headB else a.next
+            b = if (b == null) headA else b.next
+        }
+        return a
+    }
+
+
+
 
 }
 

@@ -1,4 +1,4 @@
-package leetcode_badge.algorithm
+package leetcode_study_badge.algorithm
 
 class Day4 {
     fun reverseString(s: CharArray): Unit {

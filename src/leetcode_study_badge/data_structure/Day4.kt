@@ -1,4 +1,4 @@
-package leetcode_badge.data_structure
+package leetcode_study_badge.data_structure
 
 class Day4 {
     fun searchMatrix(matrix: Array<IntArray>, target: Int): Boolean {

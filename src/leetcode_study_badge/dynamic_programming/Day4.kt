@@ -1,4 +1,4 @@
-package leetcode_badge.dynamic_programming
+package leetcode_study_badge.dynamic_programming
 
 class Day4 {
     fun canJump(nums: IntArray): Boolean {

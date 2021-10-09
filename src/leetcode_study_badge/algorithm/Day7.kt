@@ -1,4 +1,4 @@
-package leetcode_badge.algorithm
+package leetcode_study_badge.algorithm
 
 class Day7 {
     fun floodFill(image: Array<IntArray>, sr: Int, sc: Int, newColor: Int): Array<IntArray>? {
