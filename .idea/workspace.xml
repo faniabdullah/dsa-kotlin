@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_daily_chalange/WordSearch2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/ReorderList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -110,7 +109,6 @@
       <list>
         <item itemvalue="Kotlin.Day91011121314Kt" />
         <item itemvalue="Kotlin.WordSearchKt" />
-        <item itemvalue="Kotlin.Day6Kt (1)" />
         <item itemvalue="Kotlin.Day5Kt" />
         <item itemvalue="Kotlin.RecursiveQuizKt" />
       </list>
@@ -165,7 +163,8 @@
       <workItem from="1633704796031" duration="5827000" />
       <workItem from="1633712090122" duration="1732000" />
       <workItem from="1633715266566" duration="1897000" />
-      <workItem from="1633763218512" duration="13030000" />
+      <workItem from="1633763218512" duration="15751000" />
+      <workItem from="1633798348165" duration="602000" />
     </task>
     <servers />
   </component>
