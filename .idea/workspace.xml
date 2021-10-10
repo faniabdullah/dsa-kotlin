@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/Graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/DoublyLinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data_structure/stack/MinStack.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/searching/BinarySearchRecursive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursive/BinarySearchRecursive.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/searching/DeepUnderstanding.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sliding_window/SlidingWindow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sliding_window/MaximumOfValue.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/DeepUnderstanding.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sorting/QuickSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/QuickSortIteration.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/easy/AllAboutWithout.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/easy/ReverseString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/string/ReverseString.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/easy/SearchChannel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/easy/mergeSortArray.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/hard/EditDistance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/EditDistance.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/hard/LongestValidParenthesis.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/LongestValidParenthesis.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/LongestPalindromic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursive/LongestPalindromic.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/MinimumPathSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/MinimumPathSum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/ReverseWord.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/SimplyPathStackMedium.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/UniquePath.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/UniquePath.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/numberOfMatching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/string/numberOfMatching.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/mockup/FindOccurost.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/hello.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/SearchChannel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/SearchChannel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/compotitiveProgramming/easy/mergeSortArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/compotitiveProgramming/easy/mergeSortArray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/compotitiveProgramming/medium/SimplyPathStackMedium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/compotitiveProgramming/medium/SimplyPathStackMedium.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursive/RecursiveQuiz.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +165,7 @@
       <workItem from="1633715266566" duration="1897000" />
       <workItem from="1633763218512" duration="15751000" />
       <workItem from="1633798348165" duration="9520000" />
-      <workItem from="1633850668481" duration="2628000" />
+      <workItem from="1633850668481" duration="3463000" />
     </task>
     <servers />
   </component>
