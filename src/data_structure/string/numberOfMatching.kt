@@ -1,4 +1,4 @@
-package compotitiveProgramming.medium
+package data_structure.string
 
 class NumberOfMatching {
     fun numMatchingSubseq(S: String, words: Array<String>): Int {

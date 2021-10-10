@@ -1,4 +1,4 @@
-package compotitiveProgramming.hard
+package dynamicprogramming
 
 class EditDistance {
     fun minDistance(word1: String, word2: String): Int {

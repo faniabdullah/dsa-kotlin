@@ -1,4 +1,4 @@
-package compotitiveProgramming.medium
+package algorithms.recursive
 
 class LongestPalindromic {
     private var palindrome: String = ""

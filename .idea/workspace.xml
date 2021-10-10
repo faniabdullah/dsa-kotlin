@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/MinimumRemoveToMakeValidParentheses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/graph/Graph.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/linkedlist/DoublyLinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data_structure/stack/MinStack.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/searching/BinarySearchRecursive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursive/BinarySearchRecursive.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/searching/DeepUnderstanding.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/sliding_window/SlidingWindow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sliding_window/MaximumOfValue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/DeepUnderstanding.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sorting/QuickSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/sorting/QuickSortIteration.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/easy/AllAboutWithout.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/easy/ReverseString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/string/ReverseString.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/easy/SearchChannel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/easy/mergeSortArray.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/hard/EditDistance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/EditDistance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/hard/LongestValidParenthesis.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/LongestValidParenthesis.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/LongestPalindromic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/recursive/LongestPalindromic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/MinimumPathSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/MinimumPathSum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/ReverseWord.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/SimplyPathStackMedium.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/UniquePath.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprogramming/UniquePath.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/medium/numberOfMatching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/string/numberOfMatching.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compotitiveProgramming/mockup/FindOccurost.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/privatePackage/SearchChannel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/SearchChannel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/privatePackage/compotitiveProgramming/easy/mergeSortArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/compotitiveProgramming/easy/mergeSortArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/privatePackage/compotitiveProgramming/medium/SimplyPathStackMedium.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/compotitiveProgramming/medium/SimplyPathStackMedium.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursive/RecursiveQuiz.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,42 +89,43 @@
       <recent name="C:\Users\E7470\IdeaProjects\data-structures-and-algorithms-kotlin\src\leetcode_daily_chalange" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\E7470\IdeaProjects\data-structures-and-algorithms-kotlin\src\privatePackage" />
       <recent name="C:\Users\E7470\IdeaProjects\data-structures-and-algorithms-kotlin\src\leetcode_badge\algorithm" />
       <recent name="D:\data-structures-and-algorithms-kotlin\src\compotitiveProgramming\medium" />
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day91011121314Kt">
-    <configuration name="Day5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_study_badge.data_structure.Day5Kt" />
+  <component name="RunManager" selected="Kotlin.SimplyPathStackMediumKt">
+    <configuration name="DoublyLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structure.linkedlist.DoublyLinkedListKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_study_badge.dynamic_programming.Day6Kt" />
+    <configuration name="QuickSortIterationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSortIterationKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day91011121314Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_study_badge.data_structure.Day91011121314Kt" />
+    <configuration name="QuickSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSortKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveQuizKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursive.RecursiveQuizKt" />
+    <configuration name="ReverseWordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="privatePackage.compotitiveProgramming.medium.ReverseWordKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_daily_chalange.WordSearchKt" />
+    <configuration name="SimplyPathStackMediumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="privatePackage.compotitiveProgramming.medium.SimplyPathStackMediumKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,10 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day91011121314Kt" />
-        <item itemvalue="Kotlin.WordSearchKt" />
-        <item itemvalue="Kotlin.Day5Kt" />
-        <item itemvalue="Kotlin.RecursiveQuizKt" />
+        <item itemvalue="Kotlin.SimplyPathStackMediumKt" />
+        <item itemvalue="Kotlin.DoublyLinkedListKt" />
+        <item itemvalue="Kotlin.ReverseWordKt" />
+        <item itemvalue="Kotlin.QuickSortIterationKt" />
+        <item itemvalue="Kotlin.QuickSortKt" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +191,8 @@
       <workItem from="1633712090122" duration="1732000" />
       <workItem from="1633715266566" duration="1897000" />
       <workItem from="1633763218512" duration="15751000" />
-      <workItem from="1633798348165" duration="8252000" />
+      <workItem from="1633798348165" duration="9520000" />
+      <workItem from="1633850668481" duration="2628000" />
     </task>
     <servers />
   </component>
@@ -198,12 +226,12 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/src/compotitiveProgramming/medium/SimplyPathStackMedium.kt</url>
-          <line>70</line>
-          <properties method="main">
+          <url>file://$PROJECT_DIR$/src/data_structure/stack/MinStack.kt</url>
+          <line>4</line>
+          <properties class="data_structure.stack.MinStack" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

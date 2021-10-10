@@ -1,4 +1,4 @@
-package algorithms.searching
+package algorithms.search
 
 class BinarySearch {
     fun binarySearch(arr: IntArray, key: Int): Int {

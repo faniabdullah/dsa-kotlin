@@ -1,4 +1,4 @@
-package compotitiveProgramming.medium
+package dynamicprogramming
 
 class MinimumPathSum {
     fun minPathSum(grid: Array<IntArray>): Int {

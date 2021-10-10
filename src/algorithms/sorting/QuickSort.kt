@@ -16,8 +16,6 @@ class QuickSort {
         for (j in low until high) {
             if (arr[j] <= pivot) {
                 i++
-
-                // swap arr[i] and arr[j]
                 val temp = arr[i]
                 arr[i] = arr[j]
                 arr[j] = temp
@@ -29,15 +27,11 @@ class QuickSort {
         return i + 1
     }
 
-    fun printArray(arr: IntArray) {
-        for (value in arr) print("$value ")
-        println()
-    }
 }
 
 fun main() {
     val numbers = intArrayOf(99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0)
     val quickSort = QuickSort()
     quickSort.quickSort(numbers, 0, numbers.size - 1)
-    quickSort.printArray(numbers)
+    println(numbers.contentToString())
 }

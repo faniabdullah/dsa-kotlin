@@ -1,4 +1,4 @@
-package compotitiveProgramming.hard
+package dynamicprogramming
 
 class LongestValidParenthesis {
 

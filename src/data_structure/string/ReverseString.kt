@@ -1,4 +1,4 @@
-package compotitiveProgramming.easy
+package data_structure.string
 
 import java.util.*
 
@@ -45,5 +45,5 @@ class ReverseString {
 
 fun main() {
     val reverseString = ReverseString()
-    println(reverseString.solutionPerWord("Hello Tokopedia fani abdullah!"))
+    println(reverseString.solutionPerWord("Hello Github fani abdullah!"))
 }

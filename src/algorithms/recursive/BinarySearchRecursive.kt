@@ -1,4 +1,4 @@
-package algorithms.searching
+package algorithms.recursive
 
 class BinarySearchRecursive {
     fun binarySearch(

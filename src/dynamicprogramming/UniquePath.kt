@@ -1,4 +1,4 @@
-package compotitiveProgramming.medium
+package dynamicprogramming
 
 class UniquePath {
     fun solution(m: Int, n: Int): Int {
