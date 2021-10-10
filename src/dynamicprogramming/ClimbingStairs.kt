@@ -1,8 +1,17 @@
 package dynamicprogramming
 
 class ClimbingStairs {
-    fun climbingStairs() {
-
+    fun climbingStairs(n: Int): Int {
+        if (n <= 3) return n
+        var one = 1
+        var two = 2
+        var result = one + two
+        for (i in 3..n) {
+            result = one + two
+            one = two
+            two = result
+        }
+        return result
     }
 
     private val dp = IntArray(10000) { -1 }
