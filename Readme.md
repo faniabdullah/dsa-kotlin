@@ -66,7 +66,7 @@ For now, here are my LeetCode stats:
     - Binary Search
     - Tenary Search
     - Interpolar Search
-- ###[Dynamic Programming](https://github.com/faniabdullah/dsa-kotlin/tree/master/src/dynamicprogramming)
+- ### [Dynamic Programming](https://github.com/faniabdullah/dsa-kotlin/tree/master/src/dynamicprogramming)
   - Memoization
   - Tabulation
   - Edit Distance , Fibonacci , LongestValidParenthesis & Some Other Problem
