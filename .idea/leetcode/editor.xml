@@ -57,6 +57,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/RemoveNthNodeFromEndOfList.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/RemoveNthNodeFromEndOfList.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/RemoveNthNodeFromEndOfList.kt" />
+              <option name="questionId" value="19" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/ReorderList.kt">
           <value>
             <LeetcodeEditor>
@@ -81,6 +90,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/SwapNodesInPairs.md" />
               <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SwapNodesInPairs.kt" />
               <option name="questionId" value="24" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/ThreeSum.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/ThreeSum.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/ThreeSum.kt" />
+              <option name="questionId" value="15" />
             </LeetcodeEditor>
           </value>
         </entry>

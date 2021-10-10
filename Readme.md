@@ -34,7 +34,7 @@
 <p>
     The repository contains implementations of Data Structures & Algorithms in Kotlin programming language and some code [<b>Problem Solving</b>] solutions and explanations to the algorithm problems on <a href="https://leetcode.com/problemset/all/">LeetCode.</a> All are written in kotlin.  of course this repository will keep updating and you can contribute anytime. <br />
   </p>
-For now, here are my LeetCode stats:
+For now, here are my LeetCode stats:<br>
 <br>
 <img align="center" height="160px" src="https://leetcode.card.workers.dev/?username=faniabdullah" />
 
