@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/search/LinearSearch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/search/TenarySearch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sorting/MergeSort.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +70,11 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\compotitiveProgramming\medium" />
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="leetcode_daily_chalange" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SimplyPathStackMediumKt">
+  <component name="RunManager" selected="Kotlin.MergeSortKt">
     <configuration name="DoublyLinkedListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data_structure.linkedlist.DoublyLinkedListKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -77,15 +82,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortIterationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSortIterationKt" />
+    <configuration name="MergeSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.MergeSortKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSortKt" />
+    <configuration name="QuickSortIterationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.QuickSortIterationKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MergeSortKt" />
         <item itemvalue="Kotlin.SimplyPathStackMediumKt" />
         <item itemvalue="Kotlin.DoublyLinkedListKt" />
         <item itemvalue="Kotlin.ReverseWordKt" />
         <item itemvalue="Kotlin.QuickSortIterationKt" />
-        <item itemvalue="Kotlin.QuickSortKt" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +172,7 @@
       <workItem from="1633763218512" duration="15751000" />
       <workItem from="1633798348165" duration="9520000" />
       <workItem from="1633850668481" duration="6826000" />
-      <workItem from="1633866525784" duration="4882000" />
+      <workItem from="1633866525784" duration="5594000" />
     </task>
     <servers />
   </component>
