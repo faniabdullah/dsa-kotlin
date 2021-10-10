@@ -13,7 +13,8 @@
 <h3 align="center">Data Structure & Algorithm in Kotlin </h3>
 
   <p align="center">
-   The repository contains implementations of Data Structures & Algorithms in Kotlin programming language and some code [<b>Problem Solving</b>] solutions and explanations to the algorithm problems on LeetCode. All are written in kotlin.  
+   The repository contains implementations of Data Structures & Algorithms in Kotlin programming language and some code [<b>Problem Solving</b>] solutions and explanations to the algorithm problems on  <a href="https://leetcode.com/problemset/all/">LeetCode.</a>
+ All are written in kotlin.  
    of course this repository will keep updating and you can contribute anytime.
     <br />
     <a href="https://github.com/faniabdullah/dsa-kotlin"><strong>Explore the docs »</strong></a>
@@ -31,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About
 <p>
-    The repository contains implementations of Data Structures & Algorithms in Kotlin programming language and some code [<b>Problem Solving</b>] solutions and explanations to the algorithm problems on LeetCode. All are written in kotlin.  of course this repository will keep updating and you can contribute anytime. <br />
+    The repository contains implementations of Data Structures & Algorithms in Kotlin programming language and some code [<b>Problem Solving</b>] solutions and explanations to the algorithm problems on <a href="https://leetcode.com/problemset/all/">LeetCode.</a> All are written in kotlin.  of course this repository will keep updating and you can contribute anytime. <br />
   </p>
 For now, here are my LeetCode stats:
 <br>
