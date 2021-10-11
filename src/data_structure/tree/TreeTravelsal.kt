@@ -2,13 +2,31 @@ package data_structure.tree
 
 import java.util.*
 
+class TreeNode(var value: Int) {
+    var left: TreeNode? = null
+    var right: TreeNode? = null
+}
+
 class TreeTravelsal {
-    inner class Node(var value: Int) {
-        var left: Node? = null
-        var right: Node? = null
+    fun printLevelOrder(tree: TreeNode?) {
+        val queue: Queue<TreeNode?> = LinkedList()
+        queue.add(tree)
+        while (!queue.isEmpty()) {
+
+            val tempNode = queue.poll()
+            print(tempNode?.value.toString() + " ")
+
+            if (tempNode!!.left != null) {
+                queue.add(tempNode.left)
+            }
+
+            if (tempNode.right != null) {
+                queue.add(tempNode.right)
+            }
+        }
     }
 
-    fun inOrder(tree: Node?) {
+    fun inOrder(tree: TreeNode?) {
         if (tree == null) {
             return
         }
@@ -17,7 +35,7 @@ class TreeTravelsal {
         inOrder(tree.right)
     }
 
-    fun inOrderStack(tree: Node?) {
+    fun inOrderStack(tree: TreeNode?) {
         val stack = Stack<Int>()
         var current = tree
         while (current != null) {
@@ -26,7 +44,7 @@ class TreeTravelsal {
         }
     }
 
-    fun preOrder(tree: Node?) {
+    fun preOrder(tree: TreeNode?) {
         if (tree == null) {
             return
         }
@@ -35,7 +53,7 @@ class TreeTravelsal {
         preOrder(tree.right)
     }
 
-    fun postOrder(tree: Node?) {
+    fun postOrder(tree: TreeNode?) {
         if (tree == null) {
             return
         }
@@ -48,11 +66,11 @@ class TreeTravelsal {
 }
 
 fun main() {
-    val tree = TreeTravelsal().Node(1)
-    tree.left = TreeTravelsal().Node(2)
-    tree.right = TreeTravelsal().Node(3)
-    tree.left?.left = TreeTravelsal().Node(4)
-    tree.left?.right = TreeTravelsal().Node(5)
+    val tree = TreeNode(1)
+    tree.left = TreeNode(2)
+    tree.right = TreeNode(3)
+    tree.left?.left = TreeNode(4)
+    tree.left?.right = TreeNode(5)
     print("in order = ")
     TreeTravelsal().inOrder(tree)
     println()

@@ -1,13 +1,14 @@
 package data_structure.tree
 
-class TreeNode(var treeValue: String?) {
-    var right: TreeNode? = null
-    var left: TreeNode? = null
+
+class TreeNodeString(var treeValue: String?) {
+    var right: TreeNodeString? = null
+    var left: TreeNodeString? = null
 }
 
 class TreeHelper() {
 
-    fun preOrderPrint(node: TreeNode?): String {
+    fun preOrderPrint(node: TreeNodeString?): String {
         if (node == null) {
             return ""
         }
@@ -17,7 +18,7 @@ class TreeHelper() {
         return result
     }
 
-    fun inOrderPrint(node: TreeNode?): String {
+    fun inOrderPrint(node: TreeNodeString?): String {
         if (node == null) {
             return ""
         }
@@ -27,7 +28,7 @@ class TreeHelper() {
         return result
     }
 
-    fun postOrderPrint(node: TreeNode?): String {
+    fun postOrderPrint(node: TreeNodeString?): String {
         if (node == null) {
             return ""
         }
@@ -39,14 +40,14 @@ class TreeHelper() {
 
 fun main() {
     val treeHelper = TreeHelper()
-    val treeNode = TreeNode("A")
-    treeNode.left = TreeNode("B")
-    treeNode.left?.left = TreeNode("D")
-    treeNode.left?.right = TreeNode("E")
-    treeNode.left?.right?.left = TreeNode("H")
-    treeNode.right = TreeNode("C")
-    treeNode.right?.right = TreeNode("G")
-    treeNode.right?.left = TreeNode("F")
+    val treeNode = TreeNodeString("A")
+    treeNode.left = TreeNodeString("B")
+    treeNode.left?.left = TreeNodeString("D")
+    treeNode.left?.right = TreeNodeString("E")
+    treeNode.left?.right?.left = TreeNodeString("H")
+    treeNode.right = TreeNodeString("C")
+    treeNode.right?.right = TreeNodeString("G")
+    treeNode.right?.left = TreeNodeString("F")
 
     println(treeHelper.preOrderPrint(treeNode))
 
