@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_study_badge/data_structure/Day15.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode_study_badge/data_structure/Day16.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode_study_badge/data_structure/Day17.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode_study_badge/data_structure/Day18.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/BinaryTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/tree/BinaryTree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/TreeTravelsal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/tree/TreeTravelsal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_structure/tree/TreeTravelsal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure/tree/TreeTraversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode_study_badge/data_structure/Day15.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode_study_badge/data_structure/Day15.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +173,7 @@
       <workItem from="1633798348165" duration="9520000" />
       <workItem from="1633850668481" duration="6826000" />
       <workItem from="1633866525784" duration="12047000" />
-      <workItem from="1633931617092" duration="4127000" />
+      <workItem from="1633931617092" duration="6272000" />
     </task>
     <servers />
   </component>

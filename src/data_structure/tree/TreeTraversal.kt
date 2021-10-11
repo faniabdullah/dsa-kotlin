@@ -7,7 +7,7 @@ class TreeNode(var value: Int) {
     var right: TreeNode? = null
 }
 
-class TreeTravelsal {
+class TreeTraversal {
     fun printLevelOrder(tree: TreeNode?) {
         val queue: Queue<TreeNode?> = LinkedList()
         queue.add(tree)
@@ -72,12 +72,12 @@ fun main() {
     tree.left?.left = TreeNode(4)
     tree.left?.right = TreeNode(5)
     print("in order = ")
-    TreeTravelsal().inOrder(tree)
+    TreeTraversal().inOrder(tree)
     println()
     print("pre order = ")
-    TreeTravelsal().preOrder(tree)
+    TreeTraversal().preOrder(tree)
     println()
 
     print("post order = ")
-    TreeTravelsal().postOrder(tree)
+    TreeTraversal().postOrder(tree)
 }
