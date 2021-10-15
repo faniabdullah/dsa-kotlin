@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/ReplaceWords.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_daily_chalange/BestTimeToBuyAndSellStockWithCoolDwon.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +175,8 @@
       <workItem from="1633931617092" duration="8197000" />
       <workItem from="1633978824097" duration="1915000" />
       <workItem from="1634065856217" duration="2064000" />
-      <workItem from="1634108303547" duration="7999000" />
+      <workItem from="1634108303547" duration="9723000" />
+      <workItem from="1634315579547" duration="475000" />
     </task>
     <servers />
   </component>
