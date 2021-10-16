@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/MinimumWindowSubstring.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_daily_chalange/BestTimeToBuyAndSellStock3.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +45,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="current_page" value="4" />
+    <property name="current_page" value="3" />
     <property name="day3 dsa" value="Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.&#10;&#10;In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:&#10;&#10;  &#9; 1&#10; &#9; 1 1&#10;&#9; 1 2 1&#10;&#9;1 3 3 1&#10;       1 4 6 4 1&#10;&#10; n" />
     <property name="font_size" value="12" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithms/twopointer" />
-    <property name="minimumwindowsubstring" value="            // ADOBEC ODEBANC&quot;, t = &quot;ABC&quot;&#10;            // adobec&#10;            //  dobecodeba&#10;            //  obecodeba&#10;            //  becodeba&#10;            //  codeba&#10;            //  odebanc&#10;            //  debanc&#10;            // ebanc&#10;            // banc&#10;            // anc&#10;            // return the minimum" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="notes" value="asd" />
-    <property name="page_titles" value="Notes&#10;Day3 DSA&#10;rotatedImage&#10;minimumwindowSubstring" />
+    <property name="page_titles" value="Notes&#10;Day3 DSA&#10;rotatedImage" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -75,16 +73,9 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MinimumWindowSubstringKt">
+  <component name="RunManager" selected="Kotlin.SearchChannelKt">
     <configuration name="BestTimeToBuyAndSellStockWithTransactionFeeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.BestTimeToBuyAndSellStockWithTransactionFeeKt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day15Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_study_badge.data_structure.Day15Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,13 +102,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchChannelKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="privatePackage.SearchChannelKt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SearchChannelKt" />
         <item itemvalue="Kotlin.MinimumWindowSubstringKt" />
         <item itemvalue="Kotlin.ReplaceWordsKt" />
         <item itemvalue="Kotlin.Day6Kt" />
         <item itemvalue="Kotlin.BestTimeToBuyAndSellStockWithTransactionFeeKt" />
-        <item itemvalue="Kotlin.Day15Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +176,8 @@
       <workItem from="1633978824097" duration="1915000" />
       <workItem from="1634065856217" duration="2064000" />
       <workItem from="1634108303547" duration="9723000" />
-      <workItem from="1634315579547" duration="5570000" />
+      <workItem from="1634315579547" duration="5837000" />
+      <workItem from="1634368253862" duration="2354000" />
     </task>
     <servers />
   </component>
