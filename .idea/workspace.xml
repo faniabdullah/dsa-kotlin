@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_daily_chalange/BestTimeToBuyAndSellStock3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/CountAndSay.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_study_badge/algorithm/Day11.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,17 +47,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="current_page" value="3" />
+    <property name="current_page" value="4" />
     <property name="day3 dsa" value="Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.&#10;&#10;In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:&#10;&#10;  &#9; 1&#10; &#9; 1 1&#10;&#9; 1 2 1&#10;&#9;1 3 3 1&#10;       1 4 6 4 1&#10;&#10; n" />
     <property name="font_size" value="12" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithms/twopointer" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="notes" value="asd" />
-    <property name="page_titles" value="Notes&#10;Day3 DSA&#10;rotatedImage" />
+    <property name="page_titles" value="Notes&#10;Day3 DSA&#10;rotatedImage&#10;ruangguru" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="rotatedimage" value="for (j in matrix[0].indices) {&#10;                val temp = matrix[top - i][j]&#10;                matrix[top - i][j] = matrix[top - j][topRight]&#10;                matrix[top - j][topRight] = temp&#10;                &#10;                val tempBottom = matrix[bottomLeft - i][bottomLeft - i]&#10;                matrix[bottomLeft - j][j] = matrix[bottom - j][rightBottom - j]&#10;                matrix[bottom ][rightBottom - j] = tempBottom&#10;            }" />
+    <property name="ruangguru" value="" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
@@ -73,16 +76,16 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SearchChannelKt">
-    <configuration name="BestTimeToBuyAndSellStockWithTransactionFeeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.BestTimeToBuyAndSellStockWithTransactionFeeKt" />
+  <component name="RunManager" selected="Kotlin.CountAndSayKt">
+    <configuration name="CountAndSayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.CountAndSayKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day6Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode_study_badge.dynamic_programming.Day6Kt" />
+    <configuration name="Day11Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode_study_badge.algorithm.Day11Kt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CountAndSayKt" />
         <item itemvalue="Kotlin.SearchChannelKt" />
+        <item itemvalue="Kotlin.Day11Kt" />
         <item itemvalue="Kotlin.MinimumWindowSubstringKt" />
         <item itemvalue="Kotlin.ReplaceWordsKt" />
-        <item itemvalue="Kotlin.Day6Kt" />
-        <item itemvalue="Kotlin.BestTimeToBuyAndSellStockWithTransactionFeeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +180,8 @@
       <workItem from="1634065856217" duration="2064000" />
       <workItem from="1634108303547" duration="9723000" />
       <workItem from="1634315579547" duration="5837000" />
-      <workItem from="1634368253862" duration="2354000" />
+      <workItem from="1634368253862" duration="9058000" />
+      <workItem from="1634465934047" duration="4964000" />
     </task>
     <servers />
   </component>
