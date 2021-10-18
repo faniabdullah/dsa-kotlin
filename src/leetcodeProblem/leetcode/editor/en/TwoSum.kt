@@ -54,16 +54,12 @@ class TwoSum {
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
         fun twoSum(nums: IntArray, target: Int): IntArray {
-
-            val maps = mutableMapOf<Int, Int>()
-            repeat(nums.count()) {
-                val currentNumber = nums[it]
-                val valueNeeded = target - nums[it]
-                val index2 = maps[valueNeeded]
-                if (index2 != null) {
-                    return intArrayOf(index2, it)
+            val mutableMap = mutableMapOf<Int, Int>()
+            nums.forEachIndexed { index, it ->
+                if (mutableMap.containsKey(target - it)) {
+                    return intArrayOf(mutableMap[target - it] ?: 0, index)
                 } else {
-                    maps[currentNumber] = it
+                    mutableMap[it] = index
                 }
             }
             return intArrayOf()
