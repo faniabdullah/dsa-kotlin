@@ -39,6 +39,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/BullsAndCows.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/BullsAndCows.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/BullsAndCows.kt" />
+              <option name="questionId" value="299" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/ContainsDuplicate.kt">
           <value>
             <LeetcodeEditor>
@@ -156,6 +165,24 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/NextGreaterElementI.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/NextGreaterElementI.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/NextGreaterElementI.kt" />
+              <option name="questionId" value="496" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/RansomNote.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/RansomNote.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/RansomNote.kt" />
+              <option name="questionId" value="383" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/RemoveDuplicatesFromSortedListIi.kt">
           <value>
             <LeetcodeEditor>
@@ -225,6 +252,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/RotateArray.md" />
               <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/RotateArray.kt" />
               <option name="questionId" value="189" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SetMatrixZeroes.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/SetMatrixZeroes.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SetMatrixZeroes.kt" />
+              <option name="questionId" value="73" />
             </LeetcodeEditor>
           </value>
         </entry>
