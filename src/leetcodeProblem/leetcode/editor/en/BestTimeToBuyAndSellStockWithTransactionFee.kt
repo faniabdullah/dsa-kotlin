@@ -42,8 +42,7 @@
 package leetcodeProblem.leetcode.editor.en
 
 class BestTimeToBuyAndSellStockWithTransactionFee {
-    fun solution() {
-    }
+
 
     //below code will be used for submission to leetcode (using plugin of course)
     //leetcode submit region begin(Prohibit modification and deletion)

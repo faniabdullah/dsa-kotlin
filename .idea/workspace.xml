@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/ReshapeTheMatrix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +181,8 @@
       <workItem from="1634465934047" duration="15195000" />
       <workItem from="1634527372186" duration="24138000" />
       <workItem from="1634622202786" duration="25574000" />
-      <workItem from="1634739312521" duration="2638000" />
+      <workItem from="1634739312521" duration="3284000" />
+      <workItem from="1634812075167" duration="10000" />
     </task>
     <servers />
   </component>
