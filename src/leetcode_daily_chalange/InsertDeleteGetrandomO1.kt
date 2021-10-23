@@ -53,7 +53,7 @@
 // Related Topics Array Hash Table Math Design Randomized 👍 4585 👎 256
 
 
-package leetcodeProblem.leetcode.editor.en
+package leetcode_daily_chalange
 
 import kotlin.random.Random
 
