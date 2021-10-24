@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/PascalsTriangle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SumOfBeautyInTheArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/InsertDeleteGetrandomO1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/InsertDeleteGetrandomO1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
     <property name="current_page" value="4" />
     <property name="day3 dsa" value="Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.&#10;&#10;In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:&#10;&#10;  &#9; 1&#10; &#9; 1 1&#10;&#9; 1 2 1&#10;&#9;1 3 3 1&#10;       1 4 6 4 1&#10;&#10; n" />
     <property name="font_size" value="12" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithms/twopointer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcode_daily_chalange" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="notes" value="asd" />
     <property name="page_titles" value="Notes&#10;Day3 DSA&#10;rotatedImage&#10;ruangguru" />
@@ -61,8 +63,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\E7470\IdeaProjects\data-structures-and-algorithms-kotlin\src\algorithms\twopointer" />
       <recent name="C:\Users\E7470\IdeaProjects\data-structures-and-algorithms-kotlin\src\leetcode_daily_chalange" />
+      <recent name="C:\Users\E7470\IdeaProjects\data-structures-and-algorithms-kotlin\src\algorithms\twopointer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\E7470\IdeaProjects\data-structures-and-algorithms-kotlin\src\privatePackage" />
@@ -74,7 +76,7 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InterviewKt">
+  <component name="RunManager" selected="Kotlin.PascalsTriangleKt">
     <configuration name="DeepUnderstandingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="privatePackage.sort.DeepUnderstandingKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -89,15 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubstringWithoutRepeatingCharactersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.LongestSubstringWithoutRepeatingCharactersKt" />
+    <configuration name="MergeSortedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.MergeSortedArrayKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.MergeSortedArrayKt" />
+    <configuration name="PascalsTriangleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.PascalsTriangleKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PascalsTriangleKt" />
         <item itemvalue="Kotlin.InterviewKt" />
         <item itemvalue="Kotlin.DeepUnderstandingKt" />
         <item itemvalue="Kotlin.SetMatrixZeroesKt" />
         <item itemvalue="Kotlin.MergeSortedArrayKt" />
-        <item itemvalue="Kotlin.LongestSubstringWithoutRepeatingCharactersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +188,8 @@
       <workItem from="1634812075167" duration="10000" />
       <workItem from="1634833438691" duration="61000" />
       <workItem from="1634989713797" duration="289000" />
-      <workItem from="1634993200366" duration="4018000" />
+      <workItem from="1634993200366" duration="8546000" />
+      <workItem from="1635059821547" duration="1845000" />
     </task>
     <servers />
   </component>

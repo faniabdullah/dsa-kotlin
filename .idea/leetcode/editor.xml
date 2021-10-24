@@ -183,6 +183,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/PascalsTriangle.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/PascalsTriangle.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/PascalsTriangle.kt" />
+              <option name="questionId" value="118" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/RansomNote.kt">
           <value>
             <LeetcodeEditor>
@@ -288,6 +297,15 @@
               <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/StringToIntegerAtoi.md" />
               <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/StringToIntegerAtoi.kt" />
               <option name="questionId" value="8" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SumOfBeautyInTheArray.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/SumOfBeautyInTheArray.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SumOfBeautyInTheArray.kt" />
+              <option name="questionId" value="2138" />
             </LeetcodeEditor>
           </value>
         </entry>
