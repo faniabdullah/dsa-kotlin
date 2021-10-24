@@ -300,6 +300,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SearchInRotatedSortedArray.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/SearchInRotatedSortedArray.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SearchInRotatedSortedArray.kt" />
+              <option name="questionId" value="33" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SetMatrixZeroes.kt">
           <value>
             <LeetcodeEditor>
