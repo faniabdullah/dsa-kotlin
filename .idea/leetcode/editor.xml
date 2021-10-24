@@ -282,6 +282,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SearchA2dMatrix.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/SearchA2dMatrix.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SearchA2dMatrix.kt" />
+              <option name="questionId" value="74" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SetMatrixZeroes.kt">
           <value>
             <LeetcodeEditor>

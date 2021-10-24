@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/PascalsTriangle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SumOfBeautyInTheArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SearchA2dMatrix.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -76,7 +75,14 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PascalsTriangleKt">
+  <component name="RunManager" selected="Kotlin.BinarySearchKt">
+    <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.search.BinarySearchKt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeepUnderstandingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="privatePackage.sort.DeepUnderstandingKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -86,13 +92,6 @@
     </configuration>
     <configuration name="InterviewKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.InterviewKt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.MergeSortedArrayKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BinarySearchKt" />
         <item itemvalue="Kotlin.PascalsTriangleKt" />
         <item itemvalue="Kotlin.InterviewKt" />
         <item itemvalue="Kotlin.DeepUnderstandingKt" />
         <item itemvalue="Kotlin.SetMatrixZeroesKt" />
-        <item itemvalue="Kotlin.MergeSortedArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +189,7 @@
       <workItem from="1634989713797" duration="289000" />
       <workItem from="1634993200366" duration="8546000" />
       <workItem from="1635059821547" duration="1845000" />
+      <workItem from="1635080455761" duration="3371000" />
     </task>
     <servers />
   </component>
