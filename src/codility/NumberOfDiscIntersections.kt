@@ -50,7 +50,7 @@ class NumberOfDiscIntersections {
             val discRadius = abs(A[i])
             val indexOfBeginning = i.toLong() - discRadius.toLong()
             starts[(if (indexOfBeginning < 0) 0 else indexOfBeginning).toInt()]++
-            val indexOfEnd : Long = i.toLong() + discRadius.toLong()
+            val indexOfEnd: Long = i.toLong() + discRadius.toLong()
             val result = if (indexOfEnd > n) n else indexOfEnd
             ends[result.toString().toInt()]++
         }
