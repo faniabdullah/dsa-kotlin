@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codility/BinaryGap.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codility/MaxCounters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codility/OddOccurrencesInArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/NumberOfDiscIntersections.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SearchInRotatedSortedArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SearchInRotatedSortedArray.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +192,7 @@
       <workItem from="1635175158881" duration="184000" />
       <workItem from="1635179766285" duration="5252000" />
       <workItem from="1635233781466" duration="3053000" />
-      <workItem from="1635251558216" duration="3720000" />
+      <workItem from="1635251558216" duration="4725000" />
     </task>
     <servers />
   </component>
