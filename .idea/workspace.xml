@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codility/NumberOfDiscIntersections.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/Frog.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MaxCountersKt">
+  <component name="RunManager" selected="Kotlin.FrogKt">
     <configuration name="BinaryGapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codility.BinaryGapKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindFirstAndLastPositionOfElementInSortedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.FindFirstAndLastPositionOfElementInSortedArrayKt" />
+    <configuration name="FrogKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.FrogKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FrogKt" />
         <item itemvalue="Kotlin.MaxCountersKt" />
         <item itemvalue="Kotlin.OddOccurrencesInArrayKt" />
         <item itemvalue="Kotlin.BinaryGapKt" />
         <item itemvalue="Kotlin.SearchInRotatedSortedArrayKt" />
-        <item itemvalue="Kotlin.FindFirstAndLastPositionOfElementInSortedArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +192,7 @@
       <workItem from="1635175158881" duration="184000" />
       <workItem from="1635179766285" duration="5252000" />
       <workItem from="1635233781466" duration="3053000" />
-      <workItem from="1635251558216" duration="4725000" />
+      <workItem from="1635251558216" duration="8098000" />
     </task>
     <servers />
   </component>
