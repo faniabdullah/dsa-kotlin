@@ -48,9 +48,10 @@ class SearchInRotatedSortedArray {
         fun search(nums: IntArray, target: Int): Int {
             var l = 0
             var r = nums.size - 1
+                // t =4
 
             while (l <= r) {
-                val m = l + (r - l) / 2
+                val m = l + (r - l) / 2 //
                 if (nums[m] == target) {
                     return m
                 }
@@ -69,6 +70,8 @@ class SearchInRotatedSortedArray {
 
 }
 
-fun main() {}
+fun main() {
+    SearchInRotatedSortedArray.Solution().search(intArrayOf(4,5,6,7,0,1,2) , 4)
+}
   
 

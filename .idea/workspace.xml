@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SearchInRotatedSortedArray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/BinaryGap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/MaxCounters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/OddOccurrencesInArray.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SearchInRotatedSortedArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/SearchInRotatedSortedArray.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,16 +77,9 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FindFirstAndLastPositionOfElementInSortedArrayKt">
-    <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.search.BinarySearchKt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeepUnderstandingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="privatePackage.sort.DeepUnderstandingKt" />
+  <component name="RunManager" selected="Kotlin.MaxCountersKt">
+    <configuration name="BinaryGapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.BinaryGapKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,15 +92,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterviewKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.InterviewKt" />
+    <configuration name="MaxCountersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.MaxCountersKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalsTriangleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.PascalsTriangleKt" />
+    <configuration name="OddOccurrencesInArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.OddOccurrencesInArrayKt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchInRotatedSortedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.SearchInRotatedSortedArrayKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MaxCountersKt" />
+        <item itemvalue="Kotlin.OddOccurrencesInArrayKt" />
+        <item itemvalue="Kotlin.BinaryGapKt" />
+        <item itemvalue="Kotlin.SearchInRotatedSortedArrayKt" />
         <item itemvalue="Kotlin.FindFirstAndLastPositionOfElementInSortedArrayKt" />
-        <item itemvalue="Kotlin.BinarySearchKt" />
-        <item itemvalue="Kotlin.PascalsTriangleKt" />
-        <item itemvalue="Kotlin.InterviewKt" />
-        <item itemvalue="Kotlin.DeepUnderstandingKt" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +191,11 @@
       <workItem from="1634989713797" duration="289000" />
       <workItem from="1634993200366" duration="8546000" />
       <workItem from="1635059821547" duration="1845000" />
-      <workItem from="1635080455761" duration="9880000" />
+      <workItem from="1635080455761" duration="10667000" />
+      <workItem from="1635175158881" duration="184000" />
+      <workItem from="1635179766285" duration="5252000" />
+      <workItem from="1635233781466" duration="3053000" />
+      <workItem from="1635251558216" duration="3720000" />
     </task>
     <servers />
   </component>
