@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codility/NumberSolitaire.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/FirstUniqueNumber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/PascalTriAngel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +71,23 @@
       <recent name="D:\data-structures-and-algorithms-kotlin\src\compotitiveProgramming\medium" />
       <recent name="D:\data-structures-and-algorithms-kotlin\src\data-structure\queue" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="dynamicprogramming" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.NumberSolitaireKt">
+  <component name="RunManager" selected="Kotlin.FirstUniqueNumberKt">
     <configuration name="BracketKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codility.BracketKt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstUniqueNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.FirstUniqueNumberKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,13 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxCountersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.MaxCountersKt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NumberSolitaireKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codility.NumberSolitaireKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -112,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FirstUniqueNumberKt" />
         <item itemvalue="Kotlin.NumberSolitaireKt" />
         <item itemvalue="Kotlin.FishKt" />
         <item itemvalue="Kotlin.BracketKt" />
         <item itemvalue="Kotlin.FrogRiverOneKt" />
-        <item itemvalue="Kotlin.MaxCountersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +197,7 @@
       <workItem from="1635179766285" duration="5252000" />
       <workItem from="1635233781466" duration="3053000" />
       <workItem from="1635251558216" duration="16210000" />
-      <workItem from="1635316309834" duration="3059000" />
+      <workItem from="1635316309834" duration="5803000" />
     </task>
     <servers />
   </component>
