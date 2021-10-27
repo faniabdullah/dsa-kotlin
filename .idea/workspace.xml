@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codility/FirstUniqueNumber.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamicprogramming/PascalTriAngel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/StoneWall.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +196,7 @@
       <workItem from="1635179766285" duration="5252000" />
       <workItem from="1635233781466" duration="3053000" />
       <workItem from="1635251558216" duration="16210000" />
-      <workItem from="1635316309834" duration="5803000" />
+      <workItem from="1635316309834" duration="7140000" />
     </task>
     <servers />
   </component>
