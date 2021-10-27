@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codility/StoneWall.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/FirstMissingPositive.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/NailingFlanks.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +78,7 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FirstUniqueNumberKt">
+  <component name="RunManager" selected="Kotlin.NailingFlanksKt">
     <configuration name="BracketKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codility.BracketKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -99,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrogRiverOneKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.FrogRiverOneKt" />
+    <configuration name="NailingFlanksKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.NailingFlanksKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.NailingFlanksKt" />
         <item itemvalue="Kotlin.FirstUniqueNumberKt" />
         <item itemvalue="Kotlin.NumberSolitaireKt" />
         <item itemvalue="Kotlin.FishKt" />
         <item itemvalue="Kotlin.BracketKt" />
-        <item itemvalue="Kotlin.FrogRiverOneKt" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +197,7 @@
       <workItem from="1635179766285" duration="5252000" />
       <workItem from="1635233781466" duration="3053000" />
       <workItem from="1635251558216" duration="16210000" />
-      <workItem from="1635316309834" duration="7140000" />
+      <workItem from="1635316309834" duration="9712000" />
     </task>
     <servers />
   </component>
@@ -236,6 +237,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/codility/NailingFlanks.kt</url>
+          <line>7</line>
+          <properties class="codility.NailingFlanks" method="solution">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
