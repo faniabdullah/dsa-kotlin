@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codility/Bracket.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codility/Fish.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/NumberSolitaire.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FishKt">
+  <component name="RunManager" selected="Kotlin.NumberSolitaireKt">
     <configuration name="BracketKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codility.BracketKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -104,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddOccurrencesInArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.OddOccurrencesInArrayKt" />
+    <configuration name="NumberSolitaireKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.NumberSolitaireKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.NumberSolitaireKt" />
         <item itemvalue="Kotlin.FishKt" />
         <item itemvalue="Kotlin.BracketKt" />
         <item itemvalue="Kotlin.FrogRiverOneKt" />
         <item itemvalue="Kotlin.MaxCountersKt" />
-        <item itemvalue="Kotlin.OddOccurrencesInArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +192,8 @@
       <workItem from="1635175158881" duration="184000" />
       <workItem from="1635179766285" duration="5252000" />
       <workItem from="1635233781466" duration="3053000" />
-      <workItem from="1635251558216" duration="13442000" />
+      <workItem from="1635251558216" duration="16210000" />
+      <workItem from="1635316309834" duration="3059000" />
     </task>
     <servers />
   </component>
