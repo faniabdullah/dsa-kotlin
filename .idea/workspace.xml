@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codility/FirstMissingPositive.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codility/NailingFlanks.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codility/FibonacciCodility.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/FABBI.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/FABBI.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codility/CodilityChallanges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/codility/CodilityChallanges.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -78,9 +81,9 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.NailingFlanksKt">
-    <configuration name="BracketKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.BracketKt" />
+  <component name="RunManager" selected="Kotlin.OOPKt">
+    <configuration name="CodilityChallangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.CodilityChallangesKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,13 +91,6 @@
     </configuration>
     <configuration name="FirstUniqueNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codility.FirstUniqueNumberKt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FishKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.FishKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,13 +110,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OOPKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="privatePackage.OOPKt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.OOPKt" />
+        <item itemvalue="Kotlin.CodilityChallangesKt" />
         <item itemvalue="Kotlin.NailingFlanksKt" />
         <item itemvalue="Kotlin.FirstUniqueNumberKt" />
         <item itemvalue="Kotlin.NumberSolitaireKt" />
-        <item itemvalue="Kotlin.FishKt" />
-        <item itemvalue="Kotlin.BracketKt" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +200,8 @@
       <workItem from="1635179766285" duration="5252000" />
       <workItem from="1635233781466" duration="3053000" />
       <workItem from="1635251558216" duration="16210000" />
-      <workItem from="1635316309834" duration="9712000" />
+      <workItem from="1635316309834" duration="18223000" />
+      <workItem from="1635471634221" duration="5130000" />
     </task>
     <servers />
   </component>
