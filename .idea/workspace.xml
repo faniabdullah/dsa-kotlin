@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/LargestDivisibleSubset.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/RussianDollEnvelopes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -79,14 +79,7 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LargestDivisibleSubsetKt">
-    <configuration name="CodilityChallangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codility.CodilityChallangesKt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.RussianDollEnvelopesKt">
     <configuration name="LargestDivisibleSubsetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.LargestDivisibleSubsetKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -115,13 +108,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RussianDollEnvelopesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.RussianDollEnvelopesKt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.RussianDollEnvelopesKt" />
         <item itemvalue="Kotlin.LargestDivisibleSubsetKt" />
         <item itemvalue="Kotlin.LongestIncreasingSubsequenceKt" />
         <item itemvalue="Kotlin.RankTeamsByVotesKt" />
         <item itemvalue="Kotlin.OOPKt" />
-        <item itemvalue="Kotlin.CodilityChallangesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,8 @@
       <workItem from="1635316309834" duration="18223000" />
       <workItem from="1635471634221" duration="5130000" />
       <workItem from="1635766386151" duration="9608000" />
-      <workItem from="1635808128856" duration="4963000" />
+      <workItem from="1635808128856" duration="6011000" />
+      <workItem from="1635897911273" duration="3480000" />
     </task>
     <servers />
   </component>
