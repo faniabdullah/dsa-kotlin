@@ -36,10 +36,11 @@
 // A simple improvement uses O(m + n) space, but still not the best solution. 
 // Could you devise a constant space solution? 
 // 
-// Related Topics Array Hash Table Matrix 👍 4840 👎 424
+// Related Topics Array Hash Table Matrix 👍 5009 👎 434
 
 
 package leetcodeProblem.leetcode.editor.en
+
 
 class SetMatrixZeroes {
     fun solution() {
@@ -47,63 +48,52 @@ class SetMatrixZeroes {
 
     //below code will be used for submission to leetcode (using plugin of course)
     //leetcode submit region begin(Prohibit modification and deletion)
-    class Solution {
-        fun searchChannelMinimum(mutableMap: MutableMap<String, IntArray>, target: Int): String {
-            var result = ""
-            var indexMin = Int.MAX_VALUE
-            mutableMap.forEach { (name, data) ->
-                if (data.size < indexMin && data.contains(target)) {
-                    result = name
-                    indexMin = data.size
+    internal class Solution {
+        fun setZeroes(matrix: Array<IntArray>) {
+            val R = matrix.size
+            val C: Int = matrix[0].size
+            val rows: MutableSet<Int> = HashSet()
+            val cols: MutableSet<Int> = HashSet()
+
+
+            for (i in 0 until R) {
+                for (j in 0 until C) {
+                    if (matrix[i][j] == 0) {
+                        rows.add(i)
+                        cols.add(j)
+                    }
                 }
             }
-            return result
-        }
 
-        fun searchDepartmentMinimum(mutableMap: MutableMap<String, IntArray>, target: Int): List<String> {
-            var result = mutableListOf<String>()
-            mutableMap.forEach { (name, data) ->
-                if (data.contains(target)) {
-                    result.add(name)
+
+            for (i in 0 until R) {
+                for (j in 0 until C) {
+                    if (rows.contains(i) || cols.contains(j)) {
+                        matrix[i][j] = 0
+                    }
                 }
             }
-            return result
         }
-
-        fun sortingDepartment(mutableMap: MutableMap<String, IntArray>, target: Int): List<List<String>> {
-            val result = mutableListOf<List<String>>()
-            val hashMap = hashMapOf<Int, MutableList<String>>()
-            mutableMap.forEach { (name, data) ->
-                if (hashMap.containsKey(data.size)) {
-                    hashMap[data.size]?.add(name)
-                } else {
-                    hashMap[data.size] = mutableListOf()
-                }
-            }
-            hashMap.keys.sorted().forEach {
-                hashMap[it]?.let { it1 -> result.add(it1) }
-            }
-            return result
-        }
-
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
 
-fun main() {
-    println(
-        SetMatrixZeroes.Solution().searchChannelMinimum(
-            mutableMapOf(
-                "general" to intArrayOf(1, 2, 4, 5, 6, 7, 8, 9, 10, 11),
-                "zenius" to intArrayOf(1, 2, 4, 5, 6, 7, 8, 9, 10, 11),
-                "ruangguru" to intArrayOf(1, 12, 2),
-                "colearn" to intArrayOf(1)
+fun main() {}
 
-            ), 5
-        )
-    )
 
-}
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
