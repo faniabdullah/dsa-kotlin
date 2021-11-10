@@ -219,6 +219,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/NumberOfValidWordsForEachPuzzle.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/NumberOfValidWordsForEachPuzzle.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/NumberOfValidWordsForEachPuzzle.kt" />
+              <option name="questionId" value="1282" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/PascalsTriangle.kt">
           <value>
             <LeetcodeEditor>
