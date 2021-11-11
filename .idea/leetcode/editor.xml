@@ -183,6 +183,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/MinimumValueToGetPositiveStepByStepSum.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/MinimumValueToGetPositiveStepByStepSum.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/MinimumValueToGetPositiveStepByStepSum.kt" />
+              <option name="questionId" value="1514" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/MinimumWindowSubstring.kt">
           <value>
             <LeetcodeEditor>
