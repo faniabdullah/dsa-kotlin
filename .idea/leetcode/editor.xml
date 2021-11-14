@@ -120,6 +120,15 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/IteratorForCombination.kt">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/doc/content/IteratorForCombination.md" />
+              <option name="path" value="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/IteratorForCombination.kt" />
+              <option name="questionId" value="1211" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/LargestDivisibleSubset.kt">
           <value>
             <LeetcodeEditor>
