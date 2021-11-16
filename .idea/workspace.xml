@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/IteratorForCombination.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodeProblem/leetcode/editor/en/BinaryTreeInorderTraversal.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -233,7 +233,9 @@
       <workItem from="1636622056881" duration="2898000" />
       <workItem from="1636634634225" duration="25000" />
       <workItem from="1636712291446" duration="5222000" />
-      <workItem from="1636904726938" duration="1529000" />
+      <workItem from="1636904726938" duration="1626000" />
+      <workItem from="1636986926786" duration="2892000" />
+      <workItem from="1637072739334" duration="1186000" />
     </task>
     <servers />
   </component>
