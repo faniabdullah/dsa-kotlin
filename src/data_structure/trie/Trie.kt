@@ -1,7 +1,7 @@
 package data_structure.trie
 
 class Trie() {
-    /** Initialize your data structure here. */
+
     class TrieNode {
         val children = Array<TrieNode?>(26) { null }
         var isWord = false
