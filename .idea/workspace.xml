@@ -96,21 +96,7 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.FindMinimumInRotatedSortedArrayKt">
-    <configuration name="CouroutineKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CouroutineKt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CouroutineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="privatePackage.CouroutineKt" />
-      <module name="data-structures-and-algorithms-kotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.FirstUniqueNumberKt">
     <configuration name="FindMinimumInRotatedSortedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.FindMinimumInRotatedSortedArrayKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -118,8 +104,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstUniqueNumberKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codility.FirstUniqueNumberKt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HammingDistanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcodeProblem.leetcode.editor.en.HammingDistanceKt" />
+      <module name="data-structures-and-algorithms-kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueUsingStackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structure.queue.QueueUsingStackKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FirstUniqueNumberKt" />
+        <item itemvalue="Kotlin.QueueUsingStackKt" />
         <item itemvalue="Kotlin.FindMinimumInRotatedSortedArrayKt" />
         <item itemvalue="Kotlin.HammingDistanceKt" />
         <item itemvalue="Kotlin.TreeTraversalKt" />
-        <item itemvalue="Kotlin.CouroutineKt (1)" />
-        <item itemvalue="Kotlin.CouroutineKt" />
       </list>
     </recent_temporary>
   </component>

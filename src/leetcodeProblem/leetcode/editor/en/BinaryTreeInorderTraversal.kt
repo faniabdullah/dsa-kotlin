@@ -52,7 +52,7 @@
 
 package leetcodeProblem.leetcode.editor.en
 
-import privatePackage.TreeNode
+import data_structure.tree.TreeNode
 import java.util.*
 
 
@@ -80,7 +80,7 @@ class BinaryTreeInorderTraversal {
                 if (r1.left != null) {
                     recursive(r1.left)
                 }
-                listInOrder.add(r1.`val`)
+                listInOrder.add(r1.value)
                 if (r1.right != null) {
                     recursive(r1.right)
                 }
@@ -95,7 +95,7 @@ class BinaryTreeInorderTraversal {
                         curr = curr.left
                     }
                     curr = stack.pop()
-                    listInOrder.add(curr.`val`)
+                    listInOrder.add(curr.value)
                     curr = curr.right
                 }
             }
