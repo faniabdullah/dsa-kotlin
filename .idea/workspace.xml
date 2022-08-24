@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="change workspace and remove private package">
-      <change afterPath="$PROJECT_DIR$/src/HackerrankProblem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode_daily_chalange/LongestSumDivisibleByK.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/BnsSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/BnsSearch.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/Fibbonacci.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/Fibbonacci.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/New.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/New.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/QuickSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/QuickSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/RotateArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/RotateArray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/SquaresSortedArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/SquaresSortedArray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/ThePowerOfSum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/ThePowerOfSum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/privatePackage/array/Wednesday.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/privatePackage/array/Wednesday.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +95,7 @@
       <recent name="leetcode_daily_chalange" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.WednesdayKt">
+  <component name="RunManager" selected="Kotlin.ThePowerOfSumKt">
     <configuration name="BinarySearchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.search.BinarySearchKt" />
       <module name="data-structures-and-algorithms-kotlin" />
@@ -125,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquaresSortedArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="privatePackage.SquaresSortedArrayKt" />
+    <configuration name="ThePowerOfSumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hackerrank.ThePowerOfSumKt" />
       <module name="data-structures-and-algorithms-kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +133,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ThePowerOfSumKt" />
         <item itemvalue="Kotlin.WednesdayKt" />
-        <item itemvalue="Kotlin.QuickSortKt (1)" />
         <item itemvalue="Kotlin.QuickSortKt" />
         <item itemvalue="Kotlin.BinarySearchKt" />
-        <item itemvalue="Kotlin.SquaresSortedArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +262,8 @@
       <workItem from="1661076331225" duration="4122000" />
       <workItem from="1661164100532" duration="4420000" />
       <workItem from="1661188893181" duration="699000" />
-      <workItem from="1661262022478" duration="1403000" />
+      <workItem from="1661262022478" duration="4288000" />
+      <workItem from="1661366183243" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="change workspace and remove private package">
       <created>1642511129037</created>
