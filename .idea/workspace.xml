@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="442298ed-fe8a-470c-b707-04b60893a7e7" name="Default Changelist" comment="change workspace and remove private package">
-      <change afterPath="$PROJECT_DIR$/src/leetcode_daily_chalange/LongestSumDivisibleByK.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/sliding_window/lengthOfLongestSubstring.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/sliding_window/MaximumOfValue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/sliding_window/MaximumOfValue.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +264,8 @@
       <workItem from="1661164100532" duration="4420000" />
       <workItem from="1661188893181" duration="699000" />
       <workItem from="1661262022478" duration="4288000" />
-      <workItem from="1661366183243" duration="805000" />
+      <workItem from="1661366183243" duration="1157000" />
+      <workItem from="1661496350339" duration="1499000" />
     </task>
     <task id="LOCAL-00001" summary="change workspace and remove private package">
       <created>1642511129037</created>
